@@ -11,12 +11,24 @@
 /***** KEYFRAMES RULES *****/
 
 /* Slider Keyframes */
+@keyframes slider {
+    from {
+
+    }
+    to {
+
+    }
+}
 
 /* Duration Keyframes */
+@keyframes duration {
+    from {
 
+    }
+    to {
 
-/* **** */
-/* TAGS */
+    }
+}
 
 /* Global */
 html {
