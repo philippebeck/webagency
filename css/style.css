@@ -1,5 +1,14 @@
-/* *************** */
-/* KEYFRAMES RULES */
+/*********************/
+/***** VARIABLES *****/
+:root {
+    /* Colors */
+    --black: #606060;
+    --blue: #2fa2be;
+    --grey: #848484;
+}
+
+/***************************/
+/***** KEYFRAMES RULES *****/
 
 /* Slider Keyframes */
 
