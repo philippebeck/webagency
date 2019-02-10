@@ -83,7 +83,9 @@ nav:hover ul {
 
 /**************/
 /* ATTRIBUTES */
-
+nav:hover [title="Accueil"] {
+    display: none;
+}
 
 /*******************/
 /***** CLASSES *****/
@@ -112,6 +114,9 @@ nav:hover ul {
         display: flex;
     }
 
+    nav:hover [title="Accueil"] {
+        display: block;
+    }
 }
 
 /* Desktop */
