@@ -49,6 +49,13 @@ header {
 }
 
 /* Titles */
+h1 {
+    text-transform: uppercase;
+}
+
+h1 strong {
+    color: var(--blue);
+}
 
 /* Links */
 a {
