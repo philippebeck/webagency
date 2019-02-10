@@ -64,6 +64,17 @@ ul a:hover {
     color: var(--black);
 }
 
+/* List & Menu */
+ul {
+    display: none;
+    padding: 0;
+    list-style: none;
+}
+
+nav:hover ul {
+    display: flex;
+}
+
 /* Text */
 
 /* Illustrations */
@@ -97,6 +108,9 @@ ul a:hover {
 
 /* Tablet Landscape */
 @media (min-width: 992px) {
+    ul {
+        display: flex;
+    }
 
 }
 
