@@ -48,6 +48,21 @@ body {
 /* Titles */
 
 /* Links */
+a {
+    text-decoration: none;
+}
+
+ul a {
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+    color: var(--grey);
+}
+
+ul a:hover {
+    padding-top: 3.8rem;
+    border-top: solid var(--blue);
+    color: var(--black);
+}
 
 /* Text */
 
