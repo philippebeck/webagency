@@ -87,7 +87,15 @@ nav:hover ul {
 
 /* Text */
 
+
 /* Illustrations */
+header figure {
+    margin: 0;
+}
+
+header img {
+    width: 100%;
+}
 
 /* Form */
 
