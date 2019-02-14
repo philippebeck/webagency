@@ -239,7 +239,7 @@ ul {
 }
 
 #slide-auto:checked ~ .slide {
-    animation: translateX 10s ease-out infinite alternate 1s;
+    animation: translateX 7s ease-out infinite alternate 1s;
 }
 
 #slide-left:checked ~ .slide {
@@ -310,7 +310,8 @@ ul {
     margin-top: -3px;
     height: 6px;
     background-color: var(--blue);
-    animation: width 10s ease-out infinite alternate 1s;
+}
+    animation: width 7s ease-out infinite alternate 1s;
 }
 
 
