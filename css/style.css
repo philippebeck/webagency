@@ -431,6 +431,37 @@ ul {
     }
 }
 
+/*******************/
+/***** Desktop *****/
 @media (min-width: 1200px) {
+    h1 {
+        font-size: 4.5rem;
+    }
 
+    .btn {
+        font-size: 1.5rem;
+    }
+
+    .slider p {
+        margin-bottom: 3rem;
+    }
+
+    /* Slider Visual Controls */
+    .slider label {
+        top: 45%;
+        transform: scale(1);
+    }
+
+    [for="slide-left"] {
+        left: -2px;
+    }
+
+    [for="slide-right"] {
+        right: -2px;
+    }
+
+    /* Timeline */
+    .timeline {
+        height: 10px;
+    }
 }
