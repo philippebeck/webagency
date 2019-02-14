@@ -189,6 +189,11 @@ ul {
     animation : translateY 1s ease-in-out infinite alternate;
 }
 
+/* Navbar Next Content Visibility */
+.navbar + * {
+    margin-top: 10rem;
+}
+
     display: none;
     padding: 0;
     list-style: none;
