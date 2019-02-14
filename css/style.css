@@ -319,6 +319,12 @@ ul {
 /****************************/
 /***** Mobile Landscape *****/
 @media (min-width: 576px) {
+    /* Buttons */
+    .btn {
+        font-size: 1.1rem;
+    }
+
+    /* Slider Content */
     .slider section {
         top: 15%;
     }
@@ -329,10 +335,6 @@ ul {
 
     .slider p {
         margin-bottom: 1.5rem;
-    }
-
-    .btn {
-        font-size: 1.1rem;
     }
 
     /* Slider Visual Controls */
@@ -358,6 +360,23 @@ ul {
 /***************************/
 /***** Tablet Portrait *****/
 @media (min-width: 768px) {
+    /* Display Navbar Logo & List */
+    #nav-close:checked + a,
+    .navbar ul {
+        display: flex;
+    }
+
+    /* Hide Navbar Visual Controls */
+    .navbar label {
+        display: none;
+    }
+
+    /* Buttons */
+    .btn {
+        font-size: 1.2rem;
+    }
+
+    /* Slider Content */
     .slider section {
         top: 20%;
     }
@@ -369,21 +388,6 @@ ul {
     .slider p {
         margin-bottom: 2rem;
         font-size: 1.1rem;
-    }
-
-    .btn {
-        font-size: 1.2rem;
-    }
-
-    /* Navbar Display Logo & List */
-    #nav-close:checked + a,
-    .navbar ul {
-        display: flex;
-    }
-
-    /* Navbar Not Display Responsive Controls */
-    .navbar label {
-        display: none;
     }
 
     /* Slider Visual Controls */
@@ -409,6 +413,12 @@ ul {
 /****************************/
 /***** Tablet Landscape *****/
 @media (min-width: 992px) {
+    /* Buttons */
+    .btn {
+        font-size: 1.4rem;
+    }
+
+    /* Slider Content */
     .slider section {
         top: 25%;
     }
@@ -419,10 +429,6 @@ ul {
 
     .slider p {
         margin-bottom: 2.5rem;
-    }
-
-    .btn {
-        font-size: 1.4rem;
     }
 
     /* Slider Visual Controls */
@@ -448,6 +454,12 @@ ul {
 /*******************/
 /***** Desktop *****/
 @media (min-width: 1200px) {
+    /* Buttons */
+    .btn {
+        font-size: 1.5rem;
+    }
+
+    /* Slider Content */
     .slider section {
         top: 30%;
     }
@@ -460,10 +472,6 @@ ul {
         margin-bottom: 3rem;
         font-size: 1.2rem;
     }
-
-    .btn {
-    font-size: 1.5rem;
-}
 
     /* Slider Visual Controls */
     .slider label {
