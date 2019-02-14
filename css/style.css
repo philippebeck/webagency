@@ -228,19 +228,26 @@ ul {
     display: none;
 }
 
-nav:hover ul {
+/* Slider Pictures */
+.slide {
     display: flex;
-}
-
-/* Text */
-
-
-/* Illustrations */
-header figure {
+    width: 200%;
     margin: 0;
 }
 
-header img {
+#slide-auto:checked ~ .slide {
+    animation: translateX 10s ease-out infinite alternate 1s;
+}
+
+#slide-left:checked ~ .slide {
+    transform: translateX(0);
+}
+
+#slide-right:checked ~ .slide {
+    transform: translateX(-50%);
+}
+
+.slide img {
     width: 100%;
 }
 
