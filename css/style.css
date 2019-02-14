@@ -194,6 +194,26 @@ ul {
     margin-top: 10rem;
 }
 
+/******************/
+/***** Button *****/
+.btn {
+    border-bottom: solid var(--navy);
+    border-radius: 2px;
+    padding: 1rem 1.5rem;
+    background-color: var(--blue);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    word-spacing: 2px;
+}
+
+.btn:hover {
+    border: ridge var(--blue);
+    background-color: var(--navy);
+    color: Khaki;
+}
+
+
     display: none;
     padding: 0;
     list-style: none;
