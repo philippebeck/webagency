@@ -9,12 +9,21 @@
     --navy: #3292b9;
 }
 
-/***************************/
-/***** KEYFRAMES RULES *****/
 
-/* Slider Keyframes */
-@keyframes slider {
+/**************************************/
+/********** ANIMATIONS RULES **********/
+/**************************************/
+
+/****************************/
+/***** Rotate Animation *****/
+@keyframes rotate {
     from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(45deg);
+    }
+}
 
     }
     to {
