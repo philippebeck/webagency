@@ -52,6 +52,11 @@
 @keyframes translateX {
     from {
         transform: translateX(0);
+        animation-play-state: paused;
+    }
+    10% {
+        transform: translateX(0);
+        animation-play-state: running;
     }
     to {
         transform: translateX(-50%);
@@ -74,6 +79,11 @@
 @keyframes width {
     from {
         width: 0;
+        animation-play-state: paused;
+    }
+    10% {
+        width: 0;
+        animation-play-state: running;
     }
     to {
         width: 100%;
