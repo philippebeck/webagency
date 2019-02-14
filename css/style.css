@@ -120,6 +120,11 @@ h1 strong {
 a {
     text-decoration: none;
 }
+/* List & Menu */
+ul {
+    padding: 0;
+    list-style: none;
+}
 
 ul a {
     padding-right: 1.2rem;
