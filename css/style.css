@@ -315,10 +315,30 @@ ul {
 /********** MEDIA RULES **********/
 /*********************************/
 
-/* Mobile Landscape */
+/****************************/
+/***** Mobile Landscape *****/
 @media (min-width: 576px) {
+    h1 {
+        font-size: 2.25rem;
+    }
 
-}
+    .btn {
+        font-size: 1.1rem;
+    }
+
+    .slider p {
+        margin-bottom: 1.5rem;
+    }
+
+    /* Slider Visual Controls */
+    .slider label {
+        top: 35%;
+        transform: scale(.7);
+    }
+
+    [for="slide-left"] {
+        left: -6px;
+    }
 
 /* Tablet Portrait */
 @media (min-width: 768px) {
