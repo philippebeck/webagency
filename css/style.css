@@ -126,9 +126,18 @@ ul {
     list-style: none;
 }
 
-ul a {
-    padding-right: 1.2rem;
-    padding-left: 1.2rem;
+
+/*****************************/
+/********** CLASSES **********/
+/*****************************/
+
+/******************/
+/***** Navbar *****/
+.navbar,
+#nav-close:checked ~ ul {
+    display: flex;
+}
+
     color: var(--grey);
 }
 
