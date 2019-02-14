@@ -350,11 +350,52 @@ ul {
     }
 }
 
+/***************************/
+/***** Tablet Portrait *****/
 @media (min-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
 
+    .btn {
+        font-size: 1.2rem;
+    }
+
+    .slider p {
+        margin-bottom: 2rem;
+    }
+
+    /* Navbar Display Logo & List */
+    #nav-close:checked + a,
+    .navbar ul {
+        display: flex;
+    }
+
+    /* Navbar Not Display Responsive Controls */
+    .navbar label {
+        display: none;
+    }
+
+    /* Slider Visual Controls */
+    .slider label {
+        top: 40%;
+        transform: scale(.8);
+    }
+
+    [for="slide-left"] {
+        left: -4px;
+    }
+
+    [for="slide-right"] {
+        right: -4px;
+    }
+
+    /* Timeline */
+    .timeline {
+        height: 8px;
+    }
 }
 
-/* Tablet Landscape */
 @media (min-width: 992px) {
     ul {
         display: flex;
