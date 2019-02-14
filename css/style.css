@@ -179,8 +179,16 @@ ul {
     color: var(--black);
 }
 
-/* List & Menu */
-ul {
+/* Navbar Visual Controls */
+.navbar label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 3rem 1rem;
+    cursor: pointer;
+    animation : translateY 1s ease-in-out infinite alternate;
+}
+
     display: none;
     padding: 0;
     list-style: none;
