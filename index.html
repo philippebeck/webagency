@@ -300,23 +300,22 @@
             <h3>Contact Info</h3>
 
             <!-- Contact Infos -->
-            <address itemscope itemtype="http://schema.org/Organization">
-                <strong itemprop="name">WebAgency</strong>
-                <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+            <section itemscope itemtype="http://schema.org/Organization">
+                <h4 itemprop="name">WebAgency</h4>
+                <address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                     <span itemprop="streetAddress">25 Rue d'Hauteville</span>
                     <span itemprop="postalCode">75010</span>
                     <span itemprop="addressLocality">Paris</span>
-                </div>
+                </address>
                 <span>Tel : </span>
                 <span itemprop="telephone">01 02 03 04 05</span>
-            </address>
+            </section>
 
             <!-- Contact Form -->
             <form method="post" action="form.php">
                 <input type="text"  name="name"    placeholder="Name">
                 <input type="email" name="email"   placeholder="Email">
                 <input type="text"  name="subject" placeholder="Subject">
-
                 <textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
                 <input type="submit" value="Send message">
             </form>
