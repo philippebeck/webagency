@@ -25,8 +25,16 @@
     }
 }
 
+/***************************/
+/***** Scale Animation *****/
+@keyframes scale {
+    from {
+        transform: scale(1);
     }
     to {
+        transform: scale(1.5);
+    }
+}
 
     }
 }
