@@ -311,7 +311,17 @@ ul {
     height: 6px;
     background-color: var(--blue);
 }
+
+#slide-auto:checked ~ .timeline {
     animation: width 7s ease-out infinite alternate 1s;
+}
+
+#slide-left:checked ~ .timeline {
+    width: 0;
+}
+
+#slide-right:checked ~ .timeline {
+    width: 100%;
 }
 
 
