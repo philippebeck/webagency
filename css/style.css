@@ -340,7 +340,16 @@ ul {
         left: -6px;
     }
 
-/* Tablet Portrait */
+    [for="slide-right"] {
+        right: -6px;
+    }
+
+    /* Timeline */
+    .timeline {
+        height: 7px;
+    }
+}
+
 @media (min-width: 768px) {
 
 }
