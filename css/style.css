@@ -260,9 +260,12 @@ ul {
     letter-spacing: -1px;
 }
 
-/**************/
-/* ATTRIBUTES */
-nav:hover [title="Accueil"] {
+.slider p {
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
     display: none;
 }
 
