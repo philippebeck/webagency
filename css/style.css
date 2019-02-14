@@ -138,6 +138,20 @@ ul {
     display: flex;
 }
 
+/* Navbar Main Element */
+.navbar {
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 10rem;
+    background-color: white;
+    font-weight: bold;
+    letter-spacing: -1px;
+    z-index: 10;
+}
+
     color: var(--grey);
 }
 
