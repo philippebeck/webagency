@@ -302,6 +302,14 @@ ul {
     padding: 2rem 0 2rem 1rem;
 }
 
+/* Timeline */
+.timeline {
+    margin-top: -3px;
+    height: 6px;
+    background-color: var(--blue);
+    animation: width 10s ease-out infinite alternate 1s;
+}
+
 
 /*********************************/
 /********** MEDIA RULES **********/
