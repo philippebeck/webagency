@@ -326,12 +326,12 @@ ul {
         font-size: 2.25rem;
     }
 
-    .btn {
-        font-size: 1.1rem;
-    }
-
     .slider p {
         margin-bottom: 1.5rem;
+    }
+
+    .btn {
+        font-size: 1.1rem;
     }
 
     /* Slider Visual Controls */
@@ -365,12 +365,12 @@ ul {
         font-size: 3rem;
     }
 
-    .btn {
-        font-size: 1.2rem;
-    }
-
     .slider p {
         margin-bottom: 2rem;
+    }
+
+    .btn {
+        font-size: 1.2rem;
     }
 
     /* Navbar Display Logo & List */
@@ -415,12 +415,12 @@ ul {
         font-size: 3.75rem;
     }
 
-    .btn {
-        font-size: 1.4rem;
-    }
-
     .slider p {
         margin-bottom: 2.5rem;
+    }
+
+    .btn {
+        font-size: 1.4rem;
     }
 
     /* Slider Visual Controls */
@@ -454,13 +454,13 @@ ul {
         font-size: 4.5rem;
     }
 
-    .btn {
-        font-size: 1.5rem;
-    }
-
     .slider p {
         margin-bottom: 3rem;
     }
+
+    .btn {
+    font-size: 1.5rem;
+}
 
     /* Slider Visual Controls */
     .slider label {
