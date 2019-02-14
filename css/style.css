@@ -253,7 +253,7 @@ ul {
 
 .slider section {
     position: absolute;
-    top: 30%;
+    top: 10%;
     left: 10%;
     color: white;
     font-weight: bold;
@@ -318,6 +318,10 @@ ul {
 /****************************/
 /***** Mobile Landscape *****/
 @media (min-width: 576px) {
+    .slider section {
+        top: 15%;
+    }
+
     h1 {
         font-size: 2.25rem;
     }
@@ -353,6 +357,10 @@ ul {
 /***************************/
 /***** Tablet Portrait *****/
 @media (min-width: 768px) {
+    .slider section {
+        top: 20%;
+    }
+
     h1 {
         font-size: 3rem;
     }
@@ -399,6 +407,10 @@ ul {
 /****************************/
 /***** Tablet Landscape *****/
 @media (min-width: 992px) {
+    .slider section {
+        top: 25%;
+    }
+
     h1 {
         font-size: 3.75rem;
     }
@@ -434,6 +446,10 @@ ul {
 /*******************/
 /***** Desktop *****/
 @media (min-width: 1200px) {
+    .slider section {
+        top: 30%;
+    }
+
     h1 {
         font-size: 4.5rem;
     }
