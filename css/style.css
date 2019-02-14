@@ -396,17 +396,41 @@ ul {
     }
 }
 
+/****************************/
+/***** Tablet Landscape *****/
 @media (min-width: 992px) {
-    ul {
-        display: flex;
+    h1 {
+        font-size: 3.75rem;
     }
 
-    nav:hover [title="Accueil"] {
-        display: block;
+    .btn {
+        font-size: 1.4rem;
+    }
+
+    .slider p {
+        margin-bottom: 2.5rem;
+    }
+
+    /* Slider Visual Controls */
+    .slider label {
+        top: 43%;
+        transform: scale(.9);
+    }
+
+    [for="slide-left"] {
+        left: -3px;
+    }
+
+    [for="slide-right"] {
+        right: -3px;
+    }
+
+    /* Timeline */
+    .timeline {
+        height: 9px;
     }
 }
 
-/* Desktop */
 @media (min-width: 1200px) {
 
 }
