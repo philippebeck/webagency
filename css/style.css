@@ -152,6 +152,15 @@ ul {
     z-index: 10;
 }
 
+/* Navbar Hidden Elements */
+.navbar input,
+.navbar ul,
+#nav-open:checked ~ [for="nav-open"],
+#nav-close:checked ~ [for="nav-close"],
+#nav-close:checked ~ a {
+    display: none;
+}
+
     color: var(--grey);
 }
 
