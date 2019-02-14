@@ -121,6 +121,7 @@ h1 strong {
 a {
     text-decoration: none;
 }
+
 /* List & Menu */
 ul {
     padding: 0;
@@ -253,6 +254,7 @@ ul {
     width: 100%;
 }
 
+/* Slider Content */
 .slider section {
     position: absolute;
     top: 10%;
