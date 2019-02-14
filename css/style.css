@@ -36,6 +36,14 @@
     }
 }
 
+/**************************/
+/***** Skew Animation *****/
+@keyframes skew {
+    from {
+        transform: skew(0);
+    }
+    to {
+        transform: skew(180deg, 180deg);
     }
 }
 
