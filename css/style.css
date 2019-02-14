@@ -282,7 +282,7 @@ ul {
     display: none;
     right: 50%;
     border-radius: 50%;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 [for="slide-auto"]:hover,
