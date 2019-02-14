@@ -58,8 +58,16 @@
     }
 }
 
+/*****************************************/
+/****** Vertical Translate Animation *****/
+@keyframes translateY {
+    from {
+        transform: translateY(0);
     }
     to {
+        transform: translateY(1rem);
+    }
+}
 
     }
 }
