@@ -167,12 +167,15 @@ ul {
     animation: skew 2s linear 1s;
 }
 
+/* Navbar Links */
+.navbar ul a {
+    padding: 3.9rem 1.2rem 4.1rem;
     color: var(--grey);
 }
 
-ul a:hover {
-    padding-top: 3.8rem;
+.navbar ul a:hover {
     border-top: solid var(--blue);
+    padding-top: 3.9rem;
     color: var(--black);
 }
 
