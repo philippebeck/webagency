@@ -223,9 +223,9 @@ ul {
     overflow: hidden;
 }
 
+/* Slider Hidden Element */
+.slider input {
     display: none;
-    padding: 0;
-    list-style: none;
 }
 
 nav:hover ul {
