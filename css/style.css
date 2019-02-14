@@ -47,9 +47,16 @@
     }
 }
 
-/* Duration Keyframes */
-@keyframes duration {
+/******************************************/
+/***** Horizontal Translate Animation *****/
+@keyframes translateX {
     from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
 
     }
     to {
