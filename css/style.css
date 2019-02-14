@@ -161,6 +161,12 @@ ul {
     display: none;
 }
 
+/* Navbar Logo */
+.navbar [title="Accueil"] {
+    padding: 2.2rem 1rem 2.1rem;
+    animation: skew 2s linear 1s;
+}
+
     color: var(--grey);
 }
 
