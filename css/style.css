@@ -185,7 +185,9 @@ ul {
     color: var(--grey);
 }
 
-.navbar ul a:hover {
+.navbar ul a:hover,
+.navbar ul a:active,
+.navbar ul a:focus {
     border-top: solid var(--blue);
     padding-top: 3.9rem;
     color: var(--black);
@@ -220,7 +222,9 @@ ul {
     letter-spacing: -1px;
 }
 
-.btn:hover {
+.btn:hover,
+.btn:active,
+.btn:focus {
     border: ridge var(--blue);
     background-color: var(--navy);
     color: Khaki;
@@ -302,7 +306,11 @@ ul {
 }
 
 [for="slide-auto"]:hover,
-.slider section:hover ~ [for="slide-auto"] {
+[for="slide-auto"]:active,
+[for="slide-auto"]:focus,
+.slider section:hover ~ [for="slide-auto"],
+.slider section:active ~ [for="slide-auto"],
+.slider section:focus ~ [for="slide-auto"] {
     display: block;
 }
 
