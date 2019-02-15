@@ -283,7 +283,7 @@ ul {
 }
 
 .slider section {
-    top: 10%;
+    top: 5%;
     left: 10%;
     color: white;
     font-weight: bold;
@@ -367,7 +367,7 @@ ul {
 
     /* Slider Content */
     .slider section {
-        top: 15%;
+        top: 10%;
     }
 
     h1 {
@@ -419,7 +419,7 @@ ul {
 
     /* Slider Content */
     .slider section {
-        top: 20%;
+        top: 15%;
     }
 
     h1 {
@@ -461,7 +461,7 @@ ul {
 
     /* Slider Content */
     .slider section {
-        top: 25%;
+        top: 20%;
     }
 
     h1 {
@@ -502,7 +502,7 @@ ul {
 
     /* Slider Content */
     .slider section {
-        top: 30%;
+        top: 25%;
     }
 
     h1 {
