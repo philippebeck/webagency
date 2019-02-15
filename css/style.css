@@ -285,6 +285,7 @@ ul {
 .slider section {
     top: 5%;
     left: 10%;
+    width: 40%;
     color: white;
     font-weight: bold;
 }
