@@ -415,11 +415,9 @@ color: var(--blue);
     background-color: var(--grey);
 }
 
-.fa-circle {
+.grey-line .fa-circle {
     display: block;
-    position: relative;
     bottom: 6px;
-    color: var(--blue);
 }
 
 .grey-line + p {
@@ -427,7 +425,7 @@ color: var(--blue);
     width: 55%;
 }
 
-.fa-circle,
+.grey-line .fa-circle,
 .grey-line + p {
     text-align: center;
 }
