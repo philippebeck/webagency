@@ -450,6 +450,13 @@ ul {
 /***************************/
 /***** Tablet Portrait *****/
 @media (min-width: 768px) {
+    /* Medias */
+    #services img {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
     /* Display Navbar Logo & List */
     #nav-close:checked + a,
     .navbar ul {
