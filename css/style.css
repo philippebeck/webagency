@@ -175,6 +175,10 @@ ul {
     display: none;
 }
 
+/* Forms */
+fieldset {
+    display: none;
+}
 
 /*****************************/
 /********** CLASSES **********/
