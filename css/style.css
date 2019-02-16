@@ -208,8 +208,8 @@ fieldset {
 /* Navbar Hidden Elements */
 .navbar input,
 .navbar ul,
-#nav-open:checked ~ [for="nav-open"],
-#nav-close:checked ~ [for="nav-close"],
+#nav-open:checked ~ fieldset [for="nav-open"],
+#nav-close:checked ~ fieldset [for="nav-close"],
 #nav-close:checked ~ a {
     display: none;
 }
@@ -350,9 +350,9 @@ fieldset {
 [for="slide-auto"]:hover,
 [for="slide-auto"]:active,
 [for="slide-auto"]:focus,
-.slider section:hover ~ [for="slide-auto"],
-.slider section:active ~ [for="slide-auto"],
-.slider section:focus ~ [for="slide-auto"] {
+.slider section:hover ~ fieldset [for="slide-auto"],
+.slider section:active ~ fieldset [for="slide-auto"],
+.slider section:focus ~ fieldset [for="slide-auto"] {
     display: block;
 }
 
