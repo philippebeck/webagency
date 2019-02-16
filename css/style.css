@@ -429,6 +429,11 @@ ul {
     .timeline {
         height: 7px;
     }
+
+    /* Articles Introduction */
+    .grey-line + p {
+        width: 50%;
+    }
 }
 
 /***************************/
@@ -483,6 +488,11 @@ ul {
     .timeline {
         height: 8px;
     }
+
+    /* Articles Introduction */
+    .grey-line + p {
+        width: 45%;
+    }
 }
 
 /****************************/
@@ -524,6 +534,11 @@ ul {
     /* Timeline */
     .timeline {
         height: 9px;
+    }
+
+    /* Articles Introduction */
+    .grey-line + p {
+        width: 40%;
     }
 }
 
@@ -567,5 +582,10 @@ ul {
     /* Timeline */
     .timeline {
         height: 10px;
+    }
+
+    /* Articles Introduction */
+    .grey-line + p {
+        width: 35%;
     }
 }
