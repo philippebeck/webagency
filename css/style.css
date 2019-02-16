@@ -435,10 +435,16 @@ section .fa-circle {
 .fa-chart-line,
 .fa-cubes,
 .fa-chart-pie {
-color: var(--blue);
+    color: var(--blue);
 }
 
-/*********************************/
+.fa-caret-down {
+    position: relative;
+    bottom: 6px;
+    color: var(--navy);
+}
+
+    /*********************************/
 /***** Articles Introduction *****/
 .grey-line,
 .grey-line + p {
