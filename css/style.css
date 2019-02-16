@@ -176,7 +176,8 @@ ul {
 }
 
 /* Forms */
-fieldset {
+fieldset,
+[type="radio"] {
     display: none;
 }
 
@@ -206,7 +207,6 @@ fieldset {
 }
 
 /* Navbar Hidden Elements */
-.navbar input,
 .navbar ul,
 #nav-open:checked ~ fieldset [for="nav-open"],
 #nav-close:checked ~ fieldset [for="nav-close"],
@@ -282,7 +282,6 @@ fieldset {
 }
 
 /* Slider Hidden Element */
-.slider input,
 [for="slide-auto"] {
     display: none;
 }
