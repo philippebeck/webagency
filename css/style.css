@@ -143,6 +143,7 @@ article h3 {
 
 article p {
     margin-top: 0;
+    text-align: justify;
 }
 
 /* Links */
