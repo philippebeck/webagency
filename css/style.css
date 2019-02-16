@@ -141,12 +141,14 @@ h2 {
     text-align: center;
 }
 
-article h3 {
+#services h3 {
+    margin-left: 20%;
     margin-bottom: 0;
 }
 
-article p {
+#services section p {
     margin-top: 0;
+    margin-left: 20%;
     text-align: justify;
 }
 
