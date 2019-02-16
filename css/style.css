@@ -387,6 +387,22 @@ fieldset {
     width: 100%;
 }
 
+/********************/
+/***** Projects *****/
+
+/* Menu Hidden Elements */
+.all {
+    display: none;
+}
+
+/* Menu Display Elements */
+#all:checked ~ figure .all,
+#creative:checked ~ figure .creative,
+#corporate:checked ~ figure .corporate,
+#portfolio:checked ~ figure .portfolio {
+    display: block;
+}
+
 /************************/
 /***** Font-Awesome *****/
 .fa-circle {
