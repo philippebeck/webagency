@@ -129,6 +129,7 @@ h1 strong {
 }
 
 h2 {
+    margin-bottom: 1rem;
     text-align: center;
 }
 
@@ -380,6 +381,7 @@ ul {
 }
 
 .grey-line + p {
+    margin-top: 2.5rem;
     width: 55%;
 }
 
