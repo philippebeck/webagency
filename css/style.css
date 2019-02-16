@@ -538,6 +538,19 @@ ul {
 /****************************/
 /***** Tablet Landscape *****/
 @media (min-width: 992px) {
+    /* Structures */
+    #services section {
+        margin-right: 10%;
+        margin-left: 50%;
+    }
+
+    /* Medias */
+    #services img {
+        position: absolute;
+        top: 60%;
+        transform: translateY(-50%);
+    }
+
     /* Buttons */
     .btn {
         font-size: 1.4rem;
@@ -585,6 +598,11 @@ ul {
 /*******************/
 /***** Desktop *****/
 @media (min-width: 1200px) {
+    /* Medias */
+    #services img {
+        left: 5%;
+    }
+
     /* Buttons */
     .btn {
         font-size: 1.5rem;
