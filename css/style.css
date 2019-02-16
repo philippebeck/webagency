@@ -354,6 +354,36 @@ ul {
     width: 100%;
 }
 
+/*********************************/
+/***** Articles Introduction *****/
+.grey-line,
+.grey-line + p {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.grey-line {
+    width: 12rem;
+    height: 1px;
+    background-color: var(--grey);
+}
+
+.fa-circle {
+    display: block;
+    position: relative;
+    bottom: 6px;
+    color: var(--blue);
+}
+
+.grey-line + p {
+    width: 55%;
+}
+
+.fa-circle,
+.grey-line + p {
+    text-align: center;
+}
+
 
 /*********************************/
 /********** MEDIA RULES **********/
