@@ -151,6 +151,11 @@ ul {
     list-style: none;
 }
 
+/* Medias */
+#services img {
+    display: none;
+}
+
 
 /*****************************/
 /********** CLASSES **********/
