@@ -116,6 +116,10 @@ header {
     margin-top: 10rem;
 }
 
+article {
+    position: relative;
+}
+
 article section {
     margin: 2rem;
 }
