@@ -116,6 +116,10 @@ header {
     margin-top: 10rem;
 }
 
+article section {
+    margin: 2rem;
+}
+
 /* Titles */
 h1,
 h2 {
@@ -450,6 +454,11 @@ ul {
 /***************************/
 /***** Tablet Portrait *****/
 @media (min-width: 768px) {
+    /* Structures */
+    article section {
+        margin: 4rem;
+    }
+
     /* Medias */
     #services img {
         display: block;
