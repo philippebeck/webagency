@@ -165,9 +165,27 @@ a:focus {
 }
 
 /* List & Menu */
+ul,
+menu {
+    list-style: none;
+}
+
 ul {
     padding: 0;
-    list-style: none;
+}
+
+menu {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+}
+
+menu li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: baseline;
 }
 
 /* Medias */
