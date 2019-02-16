@@ -383,6 +383,24 @@ ul {
     width: 100%;
 }
 
+/************************/
+/***** Font-Awesome *****/
+.fa-circle {
+    position: relative;
+}
+
+section .fa-circle {
+    left: 1rem;
+    bottom: 5px;
+}
+
+.fa-circle,
+.fa-chart-line,
+.fa-cubes,
+.fa-chart-pie {
+color: var(--blue);
+}
+
 /*********************************/
 /***** Articles Introduction *****/
 .grey-line,
