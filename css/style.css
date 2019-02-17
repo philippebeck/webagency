@@ -271,6 +271,11 @@ figcaption,
     max-width: 80%;
 }
 
+/* Cursor Classes */
+.pointer {
+    cursor: pointer;
+}
+
 
 /******************/
 /***** Navbar *****/
@@ -312,7 +317,6 @@ figcaption,
     top: 0;
     right: 0;
     padding: 3rem 1rem;
-    cursor: pointer;
     animation : translateY 1s ease-in-out infinite alternate;
 }
 
@@ -398,7 +402,6 @@ figcaption,
     top: 30%;
     color: white;
     background-color: rgba(0,0,0,.3);
-    cursor: pointer;
     transform: scale(.6);
     z-index: 5;
 }
