@@ -74,6 +74,15 @@
     }
 }
 
+@keyframes translate-Y {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-10rem);
+    }
+}
+
 /***************************************/
 /***** Progressive Width Animation *****/
 @keyframes width {
