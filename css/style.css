@@ -253,6 +253,13 @@ figcaption,
     position: relative;
 }
 
+/* Overflow Hidden Element */
+.slider,
+.slider label,
+.gallery figure {
+    overflow: hidden;
+}
+
 
 /*****************************/
 /********** CLASSES **********/
@@ -354,13 +361,6 @@ figcaption,
 
 /******************/
 /***** Slider *****/
-
-/* Slider Main Element */
-.slider {
-    overflow: hidden;
-}
-
-/* Slider Pictures */
 .slide {
     width: 200%;
     margin: 0;
@@ -396,7 +396,6 @@ figcaption,
 /* Slider Visual Controls */
 .slider label {
     top: 30%;
-    overflow: hidden;
     color: white;
     background-color: rgba(0,0,0,.3);
     cursor: pointer;
@@ -496,7 +495,6 @@ section .fa-circle {
 }
 
 .gallery figure {
-    overflow: hidden;
     margin: .6rem;
     width: calc(100% - 1.2rem);
 }
