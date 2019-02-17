@@ -348,10 +348,6 @@ figcaption,
     transform: translateX(-50%);
 }
 
-.slide img {
-    width: 100%;
-}
-
 /* Slider Content */
 .slider section,
 .slider label {
