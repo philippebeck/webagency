@@ -202,6 +202,12 @@ menu li {
 /********** CLASSES **********/
 /*****************************/
 
+/* Display Classes */
+.container {
+    margin: auto;
+    max-width: 80%;
+}
+
 /******************/
 /***** Navbar *****/
 .navbar,
