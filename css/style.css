@@ -272,6 +272,12 @@ figcaption,
 }
 
 /* Cursor Classes */
+.btn-menu *,
+.gallery *,
+.crosshair {
+    cursor: crosshair;
+}
+
 .pointer {
     cursor: pointer;
 }
