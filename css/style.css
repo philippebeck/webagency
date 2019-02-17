@@ -276,6 +276,8 @@ figcaption,
 /******************/
 /***** Button *****/
 .btn {
+    display: inline-block;
+    margin: 0;
     border-bottom: solid var(--navy);
     border-radius: 2px;
     padding: 8px 16px;
@@ -283,6 +285,7 @@ figcaption,
     color: white;
     font-size: 1rem;
     font-weight: bold;
+    text-align: center;
     word-spacing: 2px;
     letter-spacing: -1px;
 }
