@@ -189,20 +189,17 @@ menu li {
 }
 
 /* Medias */
-#services img {
-    display: none;
+
+figure img {
+    width: 100%;
 }
 
-/* Forms */
-[type="radio"] {
-    display: none;
-}
 
 /*****************************/
 /********** CLASSES **********/
 /*****************************/
 
-/* Display Classes */
+/* Container Class */
 .container {
     margin: auto;
     max-width: 80%;
@@ -239,14 +236,6 @@ figcaption,
     font-weight: bold;
     letter-spacing: -1px;
     z-index: 10;
-}
-
-/* Navbar Hidden Elements */
-.navbar ul,
-#nav-open:checked ~ [for="nav-open"],
-#nav-close:checked ~ [for="nav-close"],
-#nav-close:checked ~ a {
-    display: none;
 }
 
 /* Navbar Logo */
@@ -289,7 +278,7 @@ figcaption,
 .btn {
     border-bottom: solid var(--navy);
     border-radius: 2px;
-    padding: 1rem 1.5rem;
+    padding: 8px 16px;
     background-color: var(--blue);
     color: white;
     font-size: 1rem;
@@ -314,11 +303,6 @@ figcaption,
 .slider {
     position: relative;
     overflow: hidden;
-}
-
-/* Slider Hidden Element */
-[for="slide-auto"] {
-    display: none;
 }
 
 /* Slider Pictures */
@@ -423,11 +407,6 @@ figcaption,
 
 /********************/
 /***** Projects *****/
-
-/* Menu Hidden Elements */
-.all {
-    display: none;
-}
 
 /* Menu Display Elements */
 #all:checked ~ figure .all,
@@ -561,11 +540,6 @@ section .fa-circle {
     #nav-close:checked + a,
     .navbar ul {
         display: flex;
-    }
-
-    /* Hide Navbar Visual Controls */
-    .navbar label {
-        display: none;
     }
 
     /* Buttons */
