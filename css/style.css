@@ -198,18 +198,7 @@ figure img {
     width: 100%;
 }
 
-
-/*****************************/
-/********** CLASSES **********/
-/*****************************/
-
-/* Container Class */
-.container {
-    margin: auto;
-    max-width: 80%;
-}
-
-/* Block Class */
+/* Display Block Elements */
 [for="slide-auto"]:hover,
 [for="slide-auto"]:active,
 [for="slide-auto"]:focus,
@@ -263,14 +252,21 @@ figcaption,
 .relative {
     position: relative;
 }
-/******************/
-/***** Navbar *****/
-.navbar,
-#nav-close:checked ~ ul {
-    display: flex;
+
+
+/*****************************/
+/********** CLASSES **********/
+/*****************************/
+
+/* Container Class */
+.container {
+    margin: auto;
+    max-width: 80%;
 }
 
-/* Navbar Main Element */
+
+/******************/
+/***** Navbar *****/
 .navbar {
     align-items: center;
     justify-content: space-around;
