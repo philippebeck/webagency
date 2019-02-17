@@ -208,6 +208,18 @@ menu li {
     max-width: 80%;
 }
 
+/* Display None Elements */
+figcaption,
+[type="radio"],
+.none,
+#nav-close:checked ~ a,
+#nav-close:checked ~ [for="nav-close"],
+#nav-open:checked ~ [for="nav-open"],
+.btn-menu + figure > * {
+    display: none;
+}
+
+
 /******************/
 /***** Navbar *****/
 .navbar,
