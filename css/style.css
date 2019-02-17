@@ -482,7 +482,7 @@ section .fa-circle {
 
 .grey-line + p {
     margin-top: 2.5rem;
-    width: 55%;
+    width: 75%;
 }
 
 .grey-line .fa-circle,
@@ -538,7 +538,7 @@ section .fa-circle {
 
     /* Articles Introduction */
     .grey-line + p {
-        width: 50%;
+        width: 70%;
     }
 }
 
@@ -604,7 +604,7 @@ section .fa-circle {
 
     /* Articles Introduction */
     .grey-line + p {
-        width: 45%;
+        width: 65%;
     }
 }
 
@@ -664,7 +664,7 @@ section .fa-circle {
 
     /* Articles Introduction */
     .grey-line + p {
-        width: 40%;
+        width: 60%;
     }
 }
 
@@ -717,6 +717,6 @@ section .fa-circle {
 
     /* Articles Introduction */
     .grey-line + p {
-        width: 35%;
+        width: 55%;
     }
 }
