@@ -446,25 +446,6 @@ figcaption,
     display: block;
 }
 
-menu + figure {
-    display: flex;
-    flex-wrap: wrap;
-    margin: -.6rem;
-}
-
-figure figure {
-    position: relative;
-    overflow: hidden;
-    margin: .6rem;
-    width: calc(100% - 1.2rem);
-}
-
-figure figure:hover figcaption {
-    display: block;
-    position: absolute;
-    animation: translate-Y 1s;
-}
-
 /************************/
 /***** Font-Awesome *****/
 .fa-circle {
@@ -518,6 +499,26 @@ section .fa-circle {
     text-align: center;
 }
 
+/* Gallery Class */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -.6rem;
+}
+
+.gallery figure {
+    position: relative;
+    overflow: hidden;
+    margin: .6rem;
+    width: calc(100% - 1.2rem);
+}
+
+.gallery figure:hover figcaption {
+    display: block;
+    position: absolute;
+    animation: translate-Y 1s;
+}
+
 
 /*********************************/
 /********** MEDIA RULES **********/
@@ -569,11 +570,12 @@ section .fa-circle {
         width: 70%;
     }
 
-    menu + figure {
+    /* Gallery Class */
+    .gallery {
         margin: -.8rem;
     }
 
-    figure figure {
+    .gallery figure {
         margin: .8rem;
         width: calc(100% / 2 - 1.6rem);
     }
@@ -643,15 +645,6 @@ section .fa-circle {
     .grey-line + p {
         width: 65%;
     }
-
-    menu + figure {
-        margin: -1rem;
-    }
-
-    figure figure {
-        margin: 1rem;
-        width: calc(100% / 3 - 2rem);
-    }
 }
 
 /****************************/
@@ -713,13 +706,14 @@ section .fa-circle {
         width: 60%;
     }
 
-    menu + figure {
-        margin: -1.2rem;
+    /* Gallery Class */
+    .gallery {
+        margin: -1rem;
     }
 
-    figure figure {
-        margin: 1.2rem;
-        width: calc(100% / 4 - 2.4rem);
+    .gallery figure {
+        margin: 1rem;
+        width: calc(100% / 3 - 2rem);
     }
 }
 
@@ -773,5 +767,15 @@ section .fa-circle {
     /* Articles Introduction */
     .grey-line + p {
         width: 55%;
+    }
+
+    /* Gallery Class */
+    .gallery {
+        margin: -1.2rem;
+    }
+
+    .gallery figure {
+        margin: 1.2rem;
+        width: calc(100% / 4 - 2.4rem);
     }
 }
