@@ -3,10 +3,10 @@
 /*******************************/
 :root {
     /* Colors */
-    --black: #606060;
-    --blue: #2fa2be;
-    --grey: #848484;
-    --navy: #3292b9;
+    --black:    #606060;
+    --blue:     #2fa2be;
+    --grey:     #848484;
+    --navy:     #3292b9;
 }
 
 
@@ -461,7 +461,7 @@ section .fa-circle {
     color: var(--navy);
 }
 
-    /*********************************/
+/*********************************/
 /***** Articles Introduction *****/
 .grey-line,
 .grey-line + p {
