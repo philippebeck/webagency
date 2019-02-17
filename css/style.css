@@ -446,6 +446,25 @@ figcaption,
     display: block;
 }
 
+menu + figure {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -.6rem;
+}
+
+figure figure {
+    position: relative;
+    overflow: hidden;
+    margin: .6rem;
+    width: calc(100% - 1.2rem);
+}
+
+figure figure:hover figcaption {
+    display: block;
+    position: absolute;
+    animation: translate-Y 1s;
+}
+
 /************************/
 /***** Font-Awesome *****/
 .fa-circle {
@@ -549,6 +568,15 @@ section .fa-circle {
     .grey-line + p {
         width: 70%;
     }
+
+    menu + figure {
+        margin: -.8rem;
+    }
+
+    figure figure {
+        margin: .8rem;
+        width: calc(100% / 2 - 1.6rem);
+    }
 }
 
 /***************************/
@@ -615,6 +643,15 @@ section .fa-circle {
     .grey-line + p {
         width: 65%;
     }
+
+    menu + figure {
+        margin: -1rem;
+    }
+
+    figure figure {
+        margin: 1rem;
+        width: calc(100% / 3 - 2rem);
+    }
 }
 
 /****************************/
@@ -674,6 +711,15 @@ section .fa-circle {
     /* Articles Introduction */
     .grey-line + p {
         width: 60%;
+    }
+
+    menu + figure {
+        margin: -1.2rem;
+    }
+
+    figure figure {
+        margin: 1.2rem;
+        width: calc(100% / 4 - 2.4rem);
     }
 }
 
