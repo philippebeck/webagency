@@ -216,6 +216,7 @@ figure img {
 
 /* Display Flex Elements */
 .navbar,
+.navbar label,
 #nav-close:checked ~ ul,
 .btn-menu,
 .btn-menu > li,
@@ -593,6 +594,10 @@ section .fa-circle {
     #nav-close:checked + a,
     .navbar ul {
         display: flex;
+    }
+
+    .navbar label {
+        display: none;
     }
 
     /* Buttons */
