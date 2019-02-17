@@ -242,6 +242,11 @@ figcaption,
     display: none;
 }
 
+/* Absolute Position Elements */
+.gallery figure:hover figcaption,
+.absolute {
+    position: absolute;
+}
 
 /******************/
 /***** Navbar *****/
@@ -286,7 +291,6 @@ figcaption,
 
 /* Navbar Visual Controls */
 .navbar label {
-    position: absolute;
     top: 0;
     right: 0;
     padding: 3rem 1rem;
@@ -375,11 +379,6 @@ figcaption,
 }
 
 /* Slider Content */
-.slider section,
-.slider label {
-    position: absolute;
-}
-
 .slider section {
     top: 5%;
     left: 10%;
@@ -510,7 +509,6 @@ section .fa-circle {
 }
 
 .gallery figure:hover figcaption {
-    position: absolute;
     animation: translate-Y 1s;
 }
 
