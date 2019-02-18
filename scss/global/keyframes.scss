@@ -1,0 +1,94 @@
+//*******************************
+//********** KEYFRAMES **********
+//*******************************
+
+
+/******************/
+/***** Rotate *****/
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(45deg);
+  }
+}
+
+
+/*****************/
+/***** Scale *****/
+@keyframes scale {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
+
+
+/****************/
+/***** Skew *****/
+@keyframes skew {
+  from {
+    transform: skew(0);
+  }
+  to {
+    transform: skew(180deg, 180deg);
+  }
+}
+
+
+/********************************/
+/***** Horizontal Translate *****/
+@keyframes translateX {
+  from {
+    transform: translateX(0);
+    animation-play-state: paused;
+  }
+  10% {
+    transform: translateX(0);
+    animation-play-state: running;
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+
+/*******************************/
+/****** Vertical Translate *****/
+@keyframes translateY {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(1rem);
+  }
+}
+
+@keyframes translate-Y {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-10rem);
+  }
+}
+
+
+/*****************************/
+/***** Progressive Width *****/
+@keyframes width {
+  from {
+    width: 0;
+    animation-play-state: paused;
+  }
+  10% {
+    width: 0;
+    animation-play-state: running;
+  }
+  to {
+    width: 100%;
+  }
+}
