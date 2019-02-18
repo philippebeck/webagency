@@ -125,10 +125,6 @@ header {
     margin-top: 10rem;
 }
 
-article section {
-    margin: 2rem;
-}
-
 /* Titles */
 h1,
 h2 {
@@ -576,11 +572,6 @@ section .fa-circle {
 /***************************/
 /***** Tablet Portrait *****/
 @media (min-width: 768px) {
-    /* Structures */
-    article section {
-        margin: 4rem;
-    }
-
     /* Medias */
     #services img {
         display: block;
@@ -648,7 +639,6 @@ section .fa-circle {
 @media (min-width: 992px) {
     /* Structures */
     #services section {
-        margin-right: 10%;
         margin-left: 50%;
     }
 
