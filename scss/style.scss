@@ -7,14 +7,14 @@
 //***** Global *****
 @import 'global/variables';
 @import 'global/keyframes';
-@import 'global/global';
+@import 'global/tags';
+@import 'global/helpers';
 
 
-//*****************
-//***** Parts *****
-@import 'parts/navbar';
-@import 'parts/button';
-@import 'parts/slider';
-@import 'parts/services';
-@import 'parts/portfolio';
-@import 'parts/contact';
+//********************
+//***** Elements *****
+@import 'elements/navbar';
+@import 'elements/button';
+@import 'elements/slider';
+@import 'elements/gallery';
+@import 'elements/form';
