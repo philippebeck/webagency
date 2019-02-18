@@ -1,3 +1,10 @@
+//*********************************
+//********** DECORATIONS **********
+//*********************************
+
+
+/************************/
+/***** Font-Awesome *****/
 .fa-circle,
 .fa-caret-down {
   position: relative;
@@ -20,52 +27,46 @@ section .fa-circle {
   color: $navy;
 }
 
-.grey-line,
-.grey-line + p {
+
+/***********************/
+/***** Under-Title *****/
+.under-title {
   margin-right: auto;
   margin-left: auto;
-}
-
-.grey-line {
   width: 12rem;
   height: 1px;
   background-color: $grey;
-}
 
-.grey-line .fa-circle {
-  bottom: 6px;
-}
+  .fa-circle {
+    bottom: 6px;
+    text-align: center;
+  }
 
-.grey-line + p {
-  margin-top: 2.5rem;
-  width: 75%;
-}
+  & + p {
+    margin-top: 2.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: 75%;
+    text-align: center;
 
-.grey-line .fa-circle,
-.grey-line + p {
-  text-align: center;
-}
+    @media (min-width: 576px) {
+      width: 70%;
+    }
 
-@media (min-width: 576px) {
-  .grey-line + p {
-    width: 70%;
+    @media (min-width: 768px) {
+      width: 65%;
+    }
+
+    @media (min-width: 992px) {
+      width: 60%;
+    }
+
+    @media (min-width: 1200px) {
+      width: 55%;
+    }
   }
 }
 
-@media (min-width: 768px) {
-  .grey-line + p {
-    width: 65%;
-  }
-}
 
-@media (min-width: 992px) {
-  .grey-line + p {
-    width: 60%;
-  }
-}
 
-@media (min-width: 1200px) {
-  .grey-line + p {
-    width: 55%;
-  }
-}
+
