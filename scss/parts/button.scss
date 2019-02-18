@@ -1,0 +1,35 @@
+/******************/
+/***** Button *****/
+.btn {
+  display: inline-block;
+  border-bottom: solid var(--navy);
+  border-radius: 2px;
+  padding: 8px 16px;
+  background-color: var(--blue);
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  word-spacing: 2px;
+  letter-spacing: -1px;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+  border: ridge var(--blue);
+  background-color: var(--navy);
+  color: Khaki;
+}
+
+.btn-menu {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: auto;
+  list-style: none;
+}
