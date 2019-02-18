@@ -1,0 +1,79 @@
+/******************/
+/***** Slider *****/
+.slide {
+  width: 200%;
+  margin: 0;
+}
+
+#slide-auto:checked ~ .slide {
+  animation: translateX 7s ease-out infinite alternate 1s;
+}
+
+#slide-left:checked ~ .slide {
+  transform: translateX(0);
+}
+
+#slide-right:checked ~ .slide {
+  transform: translateX(-50%);
+}
+
+/* Slider Content */
+.slider section {
+  top: 5%;
+  left: 10%;
+  width: 40%;
+  color: white;
+  font-weight: bold;
+}
+
+.slider p {
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+/* Slider Visual Controls */
+.slider label {
+  top: 30%;
+  color: white;
+  background-color: rgba(0,0,0,.3);
+  transform: scale(.6);
+  z-index: 5;
+}
+
+[for="slide-auto"] {
+  right: 50%;
+  border-radius: 50%;
+  padding: 2rem;
+}
+
+[for="slide-left"] {
+  left: -8px;
+  border-radius: 0 5rem 5rem 0;
+  padding: 2rem 1rem 2rem 0;
+}
+
+[for="slide-right"] {
+  right: -8px;
+  border-radius: 5rem 0 0 5rem;
+  padding: 2rem 0 2rem 1rem;
+}
+
+/* Timeline */
+.timeline {
+  margin-top: -3px;
+  height: 6px;
+  background-color: var(--blue);
+}
+
+#slide-auto:checked ~ .timeline {
+  animation: width 7s ease-out infinite alternate 1s;
+}
+
+#slide-left:checked ~ .timeline {
+  width: 0;
+}
+
+#slide-right:checked ~ .timeline {
+  width: 100%;
+}
