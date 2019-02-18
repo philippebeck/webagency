@@ -6,6 +6,9 @@
 /******************/
 /***** Navbar *****/
 .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   align-items: center;
   justify-content: space-around;
   position: fixed;
@@ -40,6 +43,9 @@
 
 /* Navbar Visual Controls */
 .navbar label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   top: 0;
   right: 0;
   padding: 3rem 1rem;
@@ -49,4 +55,15 @@
 /* Navbar Next Content Visibility */
 .navbar + * {
   margin-top: 10rem;
+}
+
+@media (min-width: 768px) {
+  #nav-close:checked + a,
+  .navbar ul {
+    display: flex;
+  }
+
+  .navbar label {
+    display: none;
+  }
 }
