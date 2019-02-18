@@ -1,3 +1,10 @@
+//*****************************
+//********** HELPERS **********
+//*****************************
+
+
+//*******************
+//***** Display *****
 .block {
   display: block;
 }
@@ -12,6 +19,9 @@
   display: none;
 }
 
+
+//********************
+//***** Position *****
 .absolute {
   position: absolute;
 }
@@ -20,11 +30,17 @@
   position: relative;
 }
 
+
+//*********************
+//***** Container *****
 .container {
   margin: auto;
   max-width: 80%;
 }
 
+
+//******************
+//***** Cursor *****
 .crosshair {
   cursor: crosshair;
 }

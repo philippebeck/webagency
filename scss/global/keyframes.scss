@@ -39,8 +39,8 @@
 }
 
 
-/********************************/
-/***** Horizontal Translate *****/
+/*********************/
+/***** Translate *****/
 @keyframes translateX {
   from {
     transform: translateX(0);
@@ -55,9 +55,6 @@
   }
 }
 
-
-/*******************************/
-/****** Vertical Translate *****/
 @keyframes translateY {
   from {
     transform: translateY(0);
@@ -77,8 +74,8 @@
 }
 
 
-/*****************************/
-/***** Progressive Width *****/
+/*****************/
+/***** Width *****/
 @keyframes width {
   from {
     width: 0;
