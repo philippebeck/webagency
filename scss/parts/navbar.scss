@@ -57,6 +57,18 @@
   margin-top: 10rem;
 }
 
+#nav-close:checked ~ ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#nav-close:checked ~ a,
+#nav-close:checked ~ [for="nav-close"],
+#nav-open:checked ~ [for="nav-open"] {
+  display: none;
+}
+
 @media (min-width: 768px) {
   #nav-close:checked + a,
   .navbar ul {
