@@ -12,12 +12,12 @@ section .fa-circle {
 .fa-chart-line,
 .fa-cubes,
 .fa-chart-pie {
-  color: var(--blue);
+  color: $blue;
 }
 
 .fa-caret-down {
   bottom: 6px;
-  color: var(--navy);
+  color: $navy;
 }
 
 .grey-line,
@@ -29,7 +29,7 @@ section .fa-circle {
 .grey-line {
   width: 12rem;
   height: 1px;
-  background-color: var(--grey);
+  background-color: $grey;
 }
 
 .grey-line .fa-circle {

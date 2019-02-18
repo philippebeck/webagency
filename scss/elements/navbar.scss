@@ -30,15 +30,15 @@
 /* Navbar Links */
 .navbar ul a {
   padding: 3.9rem 1.2rem 4.1rem;
-  color: var(--grey);
+  color: $grey;
 }
 
 .navbar ul a:hover,
 .navbar ul a:active,
 .navbar ul a:focus {
-  border-top: solid var(--blue);
+  border-top: solid $blue;
   padding-top: 3.9rem;
-  color: var(--black);
+  color: $black;
 }
 
 /* Navbar Visual Controls */

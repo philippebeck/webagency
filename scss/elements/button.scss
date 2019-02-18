@@ -5,10 +5,10 @@
 
 .btn {
   display: inline-block;
-  border-bottom: solid var(--navy);
+  border-bottom: solid $navy;
   border-radius: 2px;
   padding: 8px 16px;
-  background-color: var(--blue);
+  background-color: $blue;
   color: white;
   font-size: 1rem;
   font-weight: bold;
@@ -20,8 +20,8 @@
 .btn:hover,
 .btn:active,
 .btn:focus {
-  border: ridge var(--blue);
-  background-color: var(--navy);
+  border: ridge $blue;
+  background-color: $navy;
   color: Khaki;
 }
 
