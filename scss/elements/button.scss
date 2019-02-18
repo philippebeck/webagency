@@ -3,6 +3,8 @@
 //****************************
 
 
+/******************/
+/***** Button *****/
 .btn {
   display: inline-block;
   border-bottom: solid $navy;
@@ -15,16 +17,35 @@
   text-align: center;
   word-spacing: 2px;
   letter-spacing: -1px;
+
+  &:hover,
+  &:active,
+  &:focus {
+    border: ridge $blue;
+    background-color: $navy;
+    color: Khaki;
+  }
+
+  @media (min-width: 576px) {
+    font-size: 1.1rem;
+  }
+
+  @media (min-width: 768px) {
+    font-size: 1.2rem;
+  }
+
+  @media (min-width: 992px) {
+    font-size: 1.4rem;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 1.5rem;
+  }
 }
 
-.btn:hover,
-.btn:active,
-.btn:focus {
-  border: ridge $blue;
-  background-color: $navy;
-  color: Khaki;
-}
 
+/***********************/
+/***** Button Menu *****/
 .btn-menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -40,45 +61,21 @@
   padding: 0;
   width: auto;
   list-style: none;
-}
 
-.btn-menu > li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-items: baseline;
-}
-
-.btn-menu * {
-  cursor: crosshair;
-}
-
-.btn-menu + figure > * {
-  display: none;
-}
-
-@media (min-width: 576px) {
-  .btn {
-    font-size: 1.1rem;
+  * {
+    cursor: crosshair;
   }
-}
 
-@media (min-width: 768px) {
-  .btn {
-    font-size: 1.2rem;
+  & > li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: baseline;
   }
-}
 
-@media (min-width: 992px) {
-  .btn {
-    font-size: 1.4rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  .btn {
-    font-size: 1.5rem;
+  & + figure > * {
+    display: none;
   }
 }
