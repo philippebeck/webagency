@@ -1,0 +1,52 @@
+//****************************
+//********** NAVBAR **********
+//****************************
+
+
+/******************/
+/***** Navbar *****/
+.navbar {
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 10rem;
+  background-color: white;
+  font-weight: bold;
+  letter-spacing: -1px;
+  z-index: 10;
+}
+
+/* Navbar Logo */
+.navbar [title="Accueil"] {
+  padding: 2.2rem 1rem 2.1rem;
+  animation: skew 2s linear 1s;
+}
+
+/* Navbar Links */
+.navbar ul a {
+  padding: 3.9rem 1.2rem 4.1rem;
+  color: var(--grey);
+}
+
+.navbar ul a:hover,
+.navbar ul a:active,
+.navbar ul a:focus {
+  border-top: solid var(--blue);
+  padding-top: 3.9rem;
+  color: var(--black);
+}
+
+/* Navbar Visual Controls */
+.navbar label {
+  top: 0;
+  right: 0;
+  padding: 3rem 1rem;
+  animation : translateY 1s ease-in-out infinite alternate;
+}
+
+/* Navbar Next Content Visibility */
+.navbar + * {
+  margin-top: 10rem;
+}
