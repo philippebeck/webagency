@@ -1,5 +1,8 @@
-/******************/
-/***** Button *****/
+//****************************
+//********** Button **********
+//****************************
+
+
 .btn {
   display: inline-block;
   border-bottom: solid var(--navy);
@@ -23,6 +26,9 @@
 }
 
 .btn-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
@@ -31,5 +37,48 @@
   -ms-flex-pack: center;
   justify-content: center;
   margin: auto;
+  padding: 0;
+  width: auto;
   list-style: none;
+}
+
+.btn-menu > li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: baseline;
+}
+
+.btn-menu * {
+  cursor: crosshair;
+}
+
+.btn-menu + figure > * {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .btn {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .btn {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .btn {
+    font-size: 1.5rem;
+  }
 }
