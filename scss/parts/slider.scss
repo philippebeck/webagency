@@ -1,6 +1,16 @@
 /******************/
 /***** Slider *****/
+
+.slider {
+  position: relative;
+  overflow: hidden;
+}
+
+
 .slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 200%;
   margin: 0;
 }
@@ -35,6 +45,7 @@
 /* Slider Visual Controls */
 .slider label {
   top: 30%;
+  overflow: hidden;
   color: white;
   background-color: rgba(0,0,0,.3);
   transform: scale(.6);
@@ -76,4 +87,135 @@
 
 #slide-right:checked ~ .timeline {
   width: 100%;
+}
+
+[for="slide-auto"]:hover,
+[for="slide-auto"]:active,
+[for="slide-auto"]:focus,
+.slider section:hover ~ [for="slide-auto"],
+.slider section:active ~ [for="slide-auto"],
+.slider section:focus ~ [for="slide-auto"] {
+  display: block;
+}
+
+@media (min-width: 576px) {
+  /* Slider Content */
+  .slider section {
+    top: 10%;
+  }
+
+  .slider p {
+    margin-bottom: 1.5rem;
+  }
+
+  /* Slider Visual Controls */
+  .slider label {
+    top: 35%;
+    transform: scale(.7);
+  }
+
+  [for="slide-left"] {
+    left: -6px;
+  }
+
+  [for="slide-right"] {
+    right: -6px;
+  }
+
+  /* Timeline */
+  .timeline {
+    height: 7px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* Slider Content */
+  .slider section {
+    top: 15%;
+  }
+
+  .slider p {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+  }
+
+  /* Slider Visual Controls */
+  .slider label {
+    top: 40%;
+    transform: scale(.8);
+  }
+
+  [for="slide-left"] {
+    left: -4px;
+  }
+
+  [for="slide-right"] {
+    right: -4px;
+  }
+
+  /* Timeline */
+  .timeline {
+    height: 8px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* Slider Content */
+  .slider section {
+    top: 20%;
+  }
+
+  .slider p {
+    margin-bottom: 2.5rem;
+  }
+
+  /* Slider Visual Controls */
+  .slider label {
+    top: 43%;
+    transform: scale(.9);
+  }
+
+  [for="slide-left"] {
+    left: -3px;
+  }
+
+  [for="slide-right"] {
+    right: -3px;
+  }
+
+  /* Timeline */
+  .timeline {
+    height: 9px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* Slider Content */
+  .slider section {
+    top: 25%;
+  }
+
+  .slider p {
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+  }
+
+  /* Slider Visual Controls */
+  .slider label {
+    top: 45%;
+    transform: scale(1);
+  }
+
+  [for="slide-left"] {
+    left: -2px;
+  }
+
+  [for="slide-right"] {
+    right: -2px;
+  }
+
+  /* Timeline */
+  .timeline {
+    height: 10px;
+  }
 }
