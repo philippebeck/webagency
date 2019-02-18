@@ -1,0 +1,34 @@
+.block {
+  display: block;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.none {
+  display: none;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.container {
+  margin: auto;
+  max-width: 80%;
+}
+
+.crosshair {
+  cursor: crosshair;
+}
+
+.pointer {
+  cursor: pointer;
+}
