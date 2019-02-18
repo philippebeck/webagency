@@ -1,4 +1,10 @@
-/* Global */
+//**************************
+//********** TAGS **********
+//**************************
+
+
+/******************/
+/***** Global *****/
 html {
   margin: 0;
   padding: 0;
@@ -14,17 +20,43 @@ main {
   line-height: 1.8;
 }
 
-/* Structure */
+
+/*********************/
+/***** Structure *****/
 header {
   margin-top: 10rem;
 }
 
-/* Titles */
+#services section {
+  @media (min-width: 992px) {
+    margin-left: 50%;
+  }
+}
+
+
+/******************/
+/***** Titles *****/
 h1,
 h2 {
   font-size: 1.5rem;
   text-transform: uppercase;
   letter-spacing: -1px;
+
+  @media (min-width: 576px) {
+    font-size: 2.1rem;
+  }
+
+  @media (min-width: 768px) {
+    font-size: 2.8rem;
+  }
+
+  @media (min-width: 992px) {
+    font-size: 3.4rem;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 4rem;
+  }
 }
 
 h1 strong {
@@ -36,92 +68,78 @@ h2 {
   text-align: center;
 }
 
-a {
-  text-decoration: none;
-}
-
-a:active,
-a:focus {
-  outline: 0;
-  -moz-outline-style: none;
-}
-
-ul {
-  list-style: none;
-}
-
-ul {
-  padding: 0;
-}
-
-figure img {
-  width: 100%;
-}
-
-figcaption,
-[type="radio"] {
-  display: none;
-}
-
 #services h3 {
   margin-left: 20%;
   margin-bottom: 0;
 }
 
+
+/*****************/
+/***** Lists *****/
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+
+/*****************/
+/***** Links *****/
+a {
+  text-decoration: none;
+
+  &:active,
+  &:focus {
+    outline: 0;
+    -moz-outline-style: none;
+  }
+}
+
+
+/******************/
+/***** Medias *****/
+figure img {
+  width: 100%;
+}
+
+figcaption {
+  display: none;
+}
+
+#services img {
+  @media (min-width: 768px) {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  @media (min-width: 992px) {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+  }
+
+  @media (min-width: 1200px) {
+    left: 5%;
+  }
+}
+
+
+/****************/
+/***** Text *****/
 #services section p {
   margin-top: 0;
   margin-left: 20%;
   text-align: justify;
 }
 
-@media (min-width: 576px) {
-  h1,
-  h2 {
-    font-size: 2.1rem;
-  }
+
+/*****************/
+/***** Forms *****/
+[type="radio"] {
+  display: none;
 }
 
-@media (min-width: 768px) {
-  #services img {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-  }
 
-  h1,
-  h2 {
-    font-size: 2.8rem;
-  }
-}
 
-@media (min-width: 992px) {
-  /* Structures */
-  #services section {
-    margin-left: 50%;
-  }
-
-  /* Medias */
-  #services img {
-    position: absolute;
-    top: 60%;
-    transform: translateY(-50%);
-  }
-
-  h1,
-  h2 {
-    font-size: 3.4rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  #services img {
-    left: 5%;
-  }
-
-  h1,
-  h2 {
-    font-size: 4rem;
-  }
-}
 
 
