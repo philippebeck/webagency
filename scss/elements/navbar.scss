@@ -27,7 +27,9 @@
 
   ul {
     @media (min-width: 768px) {
-       display: flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
     }
     a {
       padding: 3.9rem 1.2rem 4.1rem;
@@ -63,8 +65,8 @@
 }
 
 
-//**************************
-//***** Navbar Display *****
+/***************************/
+/***** Navbar Controls *****/
 #nav-close:checked ~ ul {
   display: -webkit-box;
   display: -ms-flexbox;
