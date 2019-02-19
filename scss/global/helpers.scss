@@ -3,8 +3,8 @@
 //*****************************
 
 
-//*******************
-//***** Display *****
+/***************************/
+/***** Display Helpers *****/
 .block {
   display: block;
 }
@@ -20,8 +20,8 @@
 }
 
 
-//********************
-//***** Position *****
+/****************************/
+/***** Position Helpers *****/
 .absolute {
   position: absolute;
 }
@@ -31,16 +31,16 @@
 }
 
 
-//*********************
-//***** Container *****
+/****************************/
+/***** Container Helper *****/
 .container {
   margin: auto;
   max-width: 80%;
 }
 
 
-//******************
-//***** Cursor *****
+/**************************/
+/***** Cursor Helpers *****/
 .crosshair {
   cursor: crosshair;
 }
