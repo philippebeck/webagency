@@ -19,44 +19,52 @@
   font-weight: bold;
   letter-spacing: -1px;
   z-index: 10;
+
+  [title="Accueil"] {
+    padding: 2.2rem 1rem 2.1rem;
+    animation: skew 2s linear 1s;
+  }
+
+  ul {
+    @media (min-width: 768px) {
+       display: flex;
+    }
+    a {
+      padding: 3.9rem 1.2rem 4.1rem;
+      color: $grey;
+
+      &:hover,
+      &:active,
+      &:focus {
+        border-top: solid $blue;
+        padding-top: 3.9rem;
+        color: $black;
+      }
+    }
+  }
+
+  label {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    top: 0;
+    right: 0;
+    padding: 3rem 1rem;
+    animation : translateY 1s ease-in-out infinite alternate;
+
+    @media (min-width: 768px) {
+      display: none;
+    }
+  }
+
+  & + * {
+    margin-top: 10rem;
+  }
 }
 
-/* Navbar Logo */
-.navbar [title="Accueil"] {
-  padding: 2.2rem 1rem 2.1rem;
-  animation: skew 2s linear 1s;
-}
 
-/* Navbar Links */
-.navbar ul a {
-  padding: 3.9rem 1.2rem 4.1rem;
-  color: $grey;
-}
-
-.navbar ul a:hover,
-.navbar ul a:active,
-.navbar ul a:focus {
-  border-top: solid $blue;
-  padding-top: 3.9rem;
-  color: $black;
-}
-
-/* Navbar Visual Controls */
-.navbar label {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  top: 0;
-  right: 0;
-  padding: 3rem 1rem;
-  animation : translateY 1s ease-in-out infinite alternate;
-}
-
-/* Navbar Next Content Visibility */
-.navbar + * {
-  margin-top: 10rem;
-}
-
+//**************************
+//***** Navbar Display *****
 #nav-close:checked ~ ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -69,13 +77,8 @@
   display: none;
 }
 
-@media (min-width: 768px) {
-  #nav-close:checked + a,
-  .navbar ul {
+#nav-close:checked + a {
+  @media (min-width: 768px) {
     display: flex;
-  }
-
-  .navbar label {
-    display: none;
   }
 }
