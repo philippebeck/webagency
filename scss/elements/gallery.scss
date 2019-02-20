@@ -15,10 +15,6 @@
   flex-wrap: wrap;
   margin: -.6rem;
 
-  * {
-    cursor: crosshair;
-  }
-
   @media (min-width: 576px) {
     margin: -.8rem;
   }
@@ -29,6 +25,10 @@
 
   @media (min-width: 1200px) {
     margin: -1.2rem;
+  }
+
+  * {
+    cursor: crosshair;
   }
 
   figure {
