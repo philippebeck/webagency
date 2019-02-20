@@ -12,9 +12,6 @@
 /******************/
 /***** Rotate *****/
 @keyframes rotate {
-  from {
-    transform: rotate(0);
-  }
   to {
     transform: rotate(-360deg);
   }
@@ -24,9 +21,6 @@
 /*****************/
 /***** Scale *****/
 @keyframes scale {
-  from {
-    transform: scale(1);
-  }
   to {
     transform: scale(1.5);
   }
@@ -36,9 +30,6 @@
 /****************/
 /***** Skew *****/
 @keyframes skew {
-  from {
-    transform: skew(0);
-  }
   to {
     transform: skew(180deg, 180deg);
   }
@@ -62,18 +53,12 @@
 }
 
 @keyframes translateY {
-  from {
-    transform: translateY(0);
-  }
   to {
     transform: translateY(1rem);
   }
 }
 
 @keyframes translate-Y {
-  from {
-    transform: translateY(0);
-  }
   to {
     transform: translateY(-10rem);
   }
