@@ -18,6 +18,15 @@
 
 //******************
 //***** Rotate *****
+.rotate {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  animation: rotate 2s ease-in-out 2 alternate;
+
+  .disc {
+    transform: $center translate(33px, 0);
+  }
 }
 
 .fa-circle,
