@@ -29,11 +29,10 @@
   }
 }
 
-.fa-circle,
-.fa-chart-line,
-.fa-cubes,
-.fa-chart-pie {
-  color: $blue;
+.relative:hover > .rotate,
+.relative:focus > .rotate,
+.relative:active > .rotate {
+  animation: rotate 3s linear infinite;
 }
 
 .fa-caret-down {
