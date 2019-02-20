@@ -48,6 +48,18 @@
 }
 
 
+//****************
+//***** Disc *****
+.disc {
+  position: absolute;
+  border: 5px solid white;
+  width: 15px;
+  height: 15px;
+  background: $blue;
+  border-radius: 50%;
+}
+
+
 /***********************/
 /***** Under-Title *****/
 .under-title {
