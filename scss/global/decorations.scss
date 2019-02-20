@@ -122,3 +122,13 @@
   bottom: 6px;
   color: $navy;
 }
+
+.fa-eye {
+  position: absolute;
+  top: -1.5rem;
+  right: 2rem;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 1rem 1rem;
+  background-color: $blue;
+}
