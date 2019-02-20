@@ -52,6 +52,21 @@
   }
 }
 
+@keyframes translate-X {
+  from {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-250%);
+  }
+  75% {
+    transform: translateX(250%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
 @keyframes translateY {
   to {
     transform: translateY(1rem);
