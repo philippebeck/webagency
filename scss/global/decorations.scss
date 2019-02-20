@@ -102,5 +102,16 @@
 }
 
 
+/************************/
+/***** Font-Awesome *****/
+.fa-chart-line,
+.fa-cubes,
+.fa-chart-pie {
+  color: $blue;
+}
 
-
+.fa-caret-down {
+  position: relative;
+  bottom: 6px;
+  color: $navy;
+}
