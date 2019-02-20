@@ -6,16 +6,18 @@
 // 2. Under-Title class
 
 
-/************************/
-/***** Font-Awesome *****/
-.fa-circle,
-.fa-caret-down {
-  position: relative;
+//******************
+//***** Center *****
+.center {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: $center;
 }
 
-section .fa-circle {
-  left: 1rem;
-  bottom: 5px;
+
+//******************
+//***** Rotate *****
 }
 
 .fa-circle,
