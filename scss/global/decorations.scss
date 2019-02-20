@@ -63,15 +63,17 @@
 /***********************/
 /***** Under-Title *****/
 .under-title {
+  position: relative;
   margin-right: auto;
   margin-left: auto;
-  width: 12rem;
+  width: 14rem;
   height: 1px;
   background-color: $grey;
 
-  .fa-circle {
-    bottom: 6px;
-    text-align: center;
+  .disc {
+    top: -12px;
+    left: 58px;
+    animation: translateX 2s alternate 2;
   }
 
   & + p {
