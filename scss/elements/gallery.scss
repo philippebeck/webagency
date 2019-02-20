@@ -55,8 +55,13 @@
     &:hover figcaption {
       display: block;
       position: absolute;
-      animation: translate-Y 1s;
+      animation: translate-Y 2s;
     }
+  }
+
+  figcaption {
+    background-color: rgba(0,0,0,.5);
+    color: white;
   }
 }
 
