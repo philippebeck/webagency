@@ -33,9 +33,9 @@
   }
 }
 
-.relative:hover > .rotate,
-.relative:focus > .rotate,
-.relative:active > .rotate {
+*:hover > .rotate,
+*:focus > .rotate,
+*:active > .rotate {
   animation: rotate 3s linear infinite;
 }
 
