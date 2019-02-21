@@ -53,13 +53,14 @@
     }
 
     &:hover figcaption {
-      display: block;
       animation: translate-Y 2s;
+      bottom: 0;
     }
   }
 
   figcaption {
     position: absolute;
+    bottom: -41%;
     box-sizing: border-box;
     padding: 1rem;
     width: 100%;
