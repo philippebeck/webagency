@@ -78,33 +78,11 @@
     top: -12px;
     left: 58px;
   }
-
-  & + p {
-    margin-top: 2.5rem;
-    margin-right: auto;
-    margin-left: auto;
-    width: 75%;
-    text-align: center;
-
-    @media (min-width: 576px) {
-      width: 70%;
-    }
-
-    @media (min-width: 768px) {
-      width: 65%;
-    }
-
-    @media (min-width: 992px) {
-      width: 60%;
-    }
-
-    @media (min-width: 1200px) {
-      width: 55%;
-    }
-  }
 }
 
-*:hover > .under-title .disc {
+*:hover > .under-title .disc,
+*:focus > .under-title .disc,
+*:active > .under-title .disc {
   animation: translate-X 4s;
 }
 
