@@ -74,8 +74,11 @@
 }
 
 @keyframes translate-Y {
+  from {
+    transform: translateY(6.8rem);
+  }
   to {
-    transform: translateY(-6rem);
+    transform: translateY(0);
   }
 }
 
