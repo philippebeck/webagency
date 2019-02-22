@@ -60,12 +60,15 @@
 
   figcaption {
     position: absolute;
-    bottom: -41%;
-    box-sizing: border-box;
+    bottom: -58%;
     padding: 1rem;
     width: 100%;
+    line-height: 1;
     background-color: rgba(0,0,0,.5);
-    color: white;
+
+    a {
+      color: white;
+     }
 
     & > * {
       margin: 0;
