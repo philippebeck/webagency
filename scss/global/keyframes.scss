@@ -13,6 +13,14 @@
 
 /*******************/
 /***** Opacity *****/
+@-webkit-keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 @keyframes opacity {
   from {
     opacity: 0;
@@ -25,6 +33,11 @@
 
 /******************/
 /***** Rotate *****/
+@-webkit-keyframes rotate {
+  to {
+    transform: rotate(-360deg);
+  }
+}
 @keyframes rotate {
   to {
     transform: rotate(-360deg);
@@ -34,6 +47,11 @@
 
 /*****************/
 /***** Scale *****/
+@-webkit-keyframes scale {
+  to {
+    transform: scale(1.5);
+  }
+}
 @keyframes scale {
   to {
     transform: scale(1.5);
@@ -43,6 +61,11 @@
 
 /****************/
 /***** Skew *****/
+@-webkit-keyframes skew {
+  to {
+    transform: skew(180deg, 180deg);
+  }
+}
 @keyframes skew {
   to {
     transform: skew(180deg, 180deg);
@@ -52,6 +75,20 @@
 
 /**********************/
 /***** TranslateX *****/
+@-webkit-keyframes translateX-large {
+  from {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-250%);
+  }
+  75% {
+    transform: translateX(250%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
 @keyframes translateX-large {
   from {
     transform: translateX(0);
@@ -67,6 +104,19 @@
   }
 }
 
+@-webkit-keyframes translateX-paused {
+  from {
+    transform: translateX(0);
+    animation-play-state: paused;
+  }
+  10% {
+    transform: translateX(0);
+    animation-play-state: running;
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
 @keyframes translateX-paused {
   from {
     transform: translateX(0);
@@ -81,6 +131,14 @@
   }
 }
 
+@-webkit-keyframes translateX-wide {
+  from {
+    transform: translateX(-500%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
 @keyframes translateX-wide {
   from {
     transform: translateX(-500%);
@@ -93,6 +151,16 @@
 
 /**********************/
 /***** TranslateY *****/
+@-webkit-keyframes translateY-opacity {
+  from {
+    opacity: 0;
+    transform: translateY(68px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 @keyframes translateY-opacity {
   from {
     opacity: 0;
@@ -104,6 +172,11 @@
   }
 }
 
+@-webkit-keyframes translateY-tiny {
+  to {
+    transform: translateY(10px);
+  }
+}
 @keyframes translateY-tiny {
 to {
     transform: translateY(10px);
@@ -113,6 +186,19 @@ to {
 
 /*****************/
 /***** Width *****/
+@-webkit-keyframes width {
+  from {
+    width: 0;
+    animation-play-state: paused;
+  }
+  10% {
+    width: 0;
+    animation-play-state: running;
+  }
+  to {
+    width: 100%;
+  }
+}
 @keyframes width {
   from {
     width: 0;
