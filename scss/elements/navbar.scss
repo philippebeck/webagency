@@ -55,7 +55,7 @@
     top: 0;
     right: 0;
     padding: 3rem 1rem;
-    animation : translateY 1s ease-in-out infinite alternate;
+    animation : translateY-tiny 1s ease-in-out infinite alternate;
 
     @media (min-width: 768px) {
       display: none;
