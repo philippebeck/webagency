@@ -51,8 +51,12 @@
     display: block;
     margin: 1rem 0;
     padding: .5rem;
-    width: 30rem;
+    width: 100%;
     font-weight: bold;
+
+    @media (min-width: 768px) {
+      width: 30rem;
+    }
   }
 
   [placeholder="Message"] {
