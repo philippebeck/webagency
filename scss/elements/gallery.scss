@@ -98,6 +98,6 @@
 #corporate:checked ~ .gallery .corporate,
 #portfolio:checked ~ .gallery .portfolio {
   display: block;
-  -webkit-animation: translateX-wide 2s;
-  animation: translateX-wide 2s;
+  -webkit-animation: translateX-large 2s;
+  animation: translateX-large 2s;
 }
