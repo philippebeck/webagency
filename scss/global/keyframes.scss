@@ -7,6 +7,16 @@
 // 3. Skew
 // 4. Translate
 // 5. Width
+/*******************/
+/***** Opacity *****/
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 
 /******************/
@@ -93,18 +103,6 @@
 @keyframes translateY-tiny {
 to {
     transform: translateY(10px);
-  }
-}
-
-
-/*******************/
-/***** Opacity *****/
-@keyframes opacity {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
   }
 }
 
