@@ -97,11 +97,14 @@ to {
 }
 
 
+/*******************/
+/***** Opacity *****/
+@keyframes opacity {
   from {
-    transform: translateY(6.8rem);
+    opacity: 0;
   }
   to {
-    transform: translateY(0);
+    opacity: 1;
   }
 }
 
