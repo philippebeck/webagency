@@ -9,13 +9,10 @@
 /*******************/
 /***** Gallery *****/
 .gallery {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
   margin: 40px -6px;
   -webkit-animation: opacity 3s linear;
-  -o-animation: opacity 3s linear;
   animation: opacity 3s linear;
 
   @media (min-width: 576px) {
@@ -62,7 +59,6 @@
     &:hover figcaption {
       display: block;
       -webkit-animation: translateY-opacity 2s;
-      -o-animation: translateY-opacity 2s;
       animation: translateY-opacity 2s;
       bottom: 0;
     }
@@ -103,6 +99,5 @@
 #portfolio:checked ~ .gallery .portfolio {
   display: block;
   -webkit-animation: translateX-wide 2s;
-  -o-animation: translateX-wide 2s;
   animation: translateX-wide 2s;
 }
