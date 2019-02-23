@@ -90,13 +90,13 @@
   }
 }
 
-@keyframes translateY {
-  to {
-    transform: translateY(1rem);
+@keyframes translateY-tiny {
+to {
+    transform: translateY(10px);
   }
 }
 
-@keyframes translate-Y {
+
   from {
     transform: translateY(6.8rem);
   }
