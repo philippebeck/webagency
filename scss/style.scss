@@ -13,12 +13,13 @@
 @import 'global/tags';
 @import 'global/helpers';
 @import 'global/decorations';
+@import 'global/button';
 
 
 //********************
 //***** Elements *****
 @import 'elements/navbar';
-@import 'elements/button';
 @import 'elements/slider';
+@import 'elements/text';
 @import 'elements/gallery';
-@import 'elements/form';
+@import 'elements/contact';
