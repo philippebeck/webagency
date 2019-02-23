@@ -104,7 +104,7 @@
 }
 
 #slide-auto:checked ~ .slide {
-  animation: translateX 7s ease-out infinite alternate 1s;
+  animation: translateX-paused 7s ease-out infinite alternate 1s;
 }
 
 #slide-left:checked ~ .slide {
