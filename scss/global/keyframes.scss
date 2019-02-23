@@ -77,9 +77,16 @@
 }
 
 
+/**********************/
+/***** TranslateY *****/
+@keyframes translateY-opacity {
+  from {
+    opacity: 0;
+    transform: translateY(68px);
   }
   to {
-    transform: translateX(0);
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
