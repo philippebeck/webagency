@@ -3,13 +3,17 @@
 //***************************
 
 .form {
-  position: absolute;
-  top: 50%;
-  right: 10rem;
-  margin-top: -25rem;
   padding-bottom: 2rem;
   height: 50rem;
   background-color: rgba(239,245,247,.9);
+
+  @media (min-width: 768px) {
+    position: absolute;
+    top: 50%;
+    right: 10rem;
+    margin-top: -25rem;
+  padding-bottom: 2rem;
+  }
 
   & > * {
     margin-right: 2rem;
