@@ -3,9 +3,10 @@
 //****************************
 
 // 1. Slider class
-// 2. Slide class
-// 3. Slider Controls
-// 4. Timeline class
+// 2. Timeline class
+// 3. Slide Auto
+// 4. Slide Left
+// 5. Slide Right
 
 
 /******************/
@@ -13,6 +14,14 @@
 .slider {
   position: relative;
   overflow: hidden;
+
+  figure {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 200%;
+    margin: 0;
+  }
 
   section {
     top: 0;
@@ -103,98 +112,8 @@
 }
 
 
-/*****************/
-/***** Slide *****/
-.slide {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 200%;
-  margin: 0;
-}
-
-#slide-auto:checked ~ .slide {
-  -webkit-animation: translateX-paused 7s ease-out infinite alternate 1s;
-  animation: translateX-paused 7s ease-out infinite alternate 1s;
-}
-
-#slide-left:checked ~ .slide {
-  -webkit-transform: translateX(0);
-  -ms-transform: translateX(0);
-  transform: translateX(0);
-}
-
-#slide-right:checked ~ .slide {
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-}
-
-
-/***************************/
-/***** Slider Controls *****/
-[for="slide-auto"] {
-  right: 50%;
-  border-radius: 50%;
-  padding: 20px;
-}
-
-[for="slide-auto"]:hover,
-[for="slide-auto"]:active,
-[for="slide-auto"]:focus,
-.slider section:hover ~ [for="slide-auto"],
-.slider section:active ~ [for="slide-auto"],
-.slider section:focus ~ [for="slide-auto"] {
-  display: block;
-}
-
-[for="slide-left"] {
-  left: -8px;
-  border-radius:  0 50px 50px 0;
-  padding: 20px 10px 20px 0;
-
-  @media (min-width: 576px) {
-    left: -6px;
-  }
-
-  @media (min-width: 768px) {
-    left: -4px;
-  }
-
-  @media (min-width: 992px) {
-    left: -3px;
-  }
-
-  @media (min-width: 1200px) {
-    left: -2px;
-  }
-}
-
-[for="slide-right"] {
-  right: -8px;
-  border-radius: 50px 0 0 50px;
-  padding: 20px 0 20px 10px;
-
-  @media (min-width: 576px) {
-    right: -6px;
-  }
-
-  @media (min-width: 768px) {
-    right: -4px;
-  }
-
-  @media (min-width: 992px) {
-    right: -3px;
-  }
-
-  @media (min-width: 1200px) {
-    right: -2px;
-  }
-}
-
-
-/***************************/
-/***** Slider Timeline *****/
+/********************/
+/***** Timeline *****/
 .timeline {
   margin-top: -3px;
   height: 6px;
@@ -218,13 +137,97 @@
 }
 
 
+/**********************/
+/***** Slide Auto *****/
+[for="slide-auto"] {
+  right: 50%;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+[for="slide-auto"]:hover,
+[for="slide-auto"]:active,
+[for="slide-auto"]:focus,
+.slider section:hover ~ [for="slide-auto"],
+.slider section:active ~ [for="slide-auto"],
+.slider section:focus ~ [for="slide-auto"] {
+  display: block;
+}
+
+#slide-auto:checked ~ figure {
+  -webkit-animation: translateX-paused 7s ease-out infinite alternate 1s;
+  animation: translateX-paused 7s ease-out infinite alternate 1s;
+}
+
 #slide-auto:checked ~ .timeline {
   -webkit-animation: width 7s ease-out infinite alternate 1s;
   animation: width 7s ease-out infinite alternate 1s;
 }
 
+
+/**********************/
+/***** Slide Left *****/
+[for="slide-left"] {
+  left: -8px;
+  border-radius:  0 50px 50px 0;
+  padding: 20px 10px 20px 0;
+
+  @media (min-width: 576px) {
+    left: -6px;
+  }
+
+  @media (min-width: 768px) {
+    left: -4px;
+  }
+
+  @media (min-width: 992px) {
+    left: -3px;
+  }
+
+  @media (min-width: 1200px) {
+    left: -2px;
+  }
+}
+
+#slide-left:checked ~ figure {
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
 #slide-left:checked ~ .timeline {
   width: 0;
+}
+
+
+/***********************/
+/***** Slide Right *****/
+[for="slide-right"] {
+  right: -8px;
+  border-radius: 50px 0 0 50px;
+  padding: 20px 0 20px 10px;
+
+  @media (min-width: 576px) {
+    right: -6px;
+  }
+
+  @media (min-width: 768px) {
+    right: -4px;
+  }
+
+  @media (min-width: 992px) {
+    right: -3px;
+  }
+
+  @media (min-width: 1200px) {
+    right: -2px;
+  }
+}
+
+#slide-right:checked ~ figure {
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 #slide-right:checked ~ .timeline {
