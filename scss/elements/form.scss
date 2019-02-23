@@ -3,25 +3,25 @@
 //***************************
 
 .form {
-  padding-bottom: 2rem;
-  height: 50rem;
+  padding-bottom: 20px;
+  height: 500px;
   background-color: rgba(239,245,247,.9);
 
   @media (min-width: 768px) {
     position: absolute;
     top: 50%;
-    right: 10rem;
-    margin-top: -25rem;
+    right: 100px;
+    margin-top: -250px;
     animation: translateX-wide 5s ease-out;
   }
 
   & > * {
-    margin-right: 2rem;
-    margin-left: 2rem;
+    margin-right: 20px;
+    margin-left: 20px;
   }
 
   h3 {
-    margin: 2rem;
+    margin: 20px;
     font-size: 2.5rem;
     text-align: center;
 
@@ -49,19 +49,19 @@
 
   [placeholder] {
     display: block;
-    margin: 1rem 0;
-    padding: .5rem;
+    margin: 10px 0;
+    padding: 5px;
     width: 100%;
     font-weight: bold;
 
     @media (min-width: 768px) {
-      width: 30rem;
+      width: 300px;
     }
   }
 
   textarea {
     @media (min-width: 768px) {
-      width: 31rem;
+      width: 310px;
     }
   }
 }
