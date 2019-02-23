@@ -59,7 +59,9 @@
     }
   }
 
-  [placeholder="Message"] {
-    width: 31rem;
+  textarea {
+    @media (min-width: 768px) {
+      width: 31rem;
+    }
   }
 }
