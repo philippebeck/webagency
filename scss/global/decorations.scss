@@ -28,6 +28,8 @@
   border: 1px solid $grey;
   width: 67px;
   height: 67px;
+  -webkit-transform: $center rotate(45deg);
+  -ms-transform: $center rotate(45deg);
   transform: $center rotate(45deg);
 }
 
@@ -50,9 +52,12 @@
   position: absolute;
   top: 50%;
   left: 5%;
+  -webkit-animation: rotate 2s ease-in-out 2 alternate;
   animation: rotate 2s ease-in-out 2 alternate;
 
   .disc {
+    -webkit-transform: $center translate(33px, 0);
+    -ms-transform: $center translate(33px, 0);
     transform: $center translate(33px, 0);
   }
 }
@@ -60,6 +65,7 @@
 *:hover > .rotate,
 *:focus > .rotate,
 *:active > .rotate {
+  -webkit-animation: rotate 3s linear infinite;
   animation: rotate 3s linear infinite;
 }
 
@@ -83,6 +89,7 @@
 *:hover > .under-title .disc,
 *:focus > .under-title .disc,
 *:active > .under-title .disc {
+  -webkit-animation: translateX-large 4s ease-in-out;
   animation: translateX-large 4s ease-in-out;
 }
 
