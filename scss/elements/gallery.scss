@@ -54,7 +54,8 @@
     }
 
     &:hover figcaption {
-      animation: translate-Y 2s;
+      display: block;
+      animation: translateY-opacity 3s;
       bottom: 0;
     }
   }
