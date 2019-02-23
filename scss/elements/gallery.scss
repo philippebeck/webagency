@@ -14,9 +14,9 @@
   display: flex;
   flex-wrap: wrap;
   margin: 40px -6px;
-  -webkit-animation: opacity 5s linear;
-  -o-animation: opacity 5s linear;
-  animation: opacity 5s linear;
+  -webkit-animation: opacity 3s linear;
+  -o-animation: opacity 3s linear;
+  animation: opacity 3s linear;
 
   @media (min-width: 576px) {
     margin-right: -8px;
@@ -61,9 +61,9 @@
 
     &:hover figcaption {
       display: block;
-      -webkit-animation: translateY-opacity 3s;
-      -o-animation: translateY-opacity 3s;
-      animation: translateY-opacity 3s;
+      -webkit-animation: translateY-opacity 2s;
+      -o-animation: translateY-opacity 2s;
+      animation: translateY-opacity 2s;
       bottom: 0;
     }
   }
