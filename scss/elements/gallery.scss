@@ -61,12 +61,13 @@
   }
 
   figcaption {
+    display: none;
     position: absolute;
-    bottom: -58%;
-    padding: 1rem;
+    bottom: -60%;
     width: 100%;
     line-height: 1;
     background-color: rgba(0,0,0,.5);
+  }
 
     a {
       color: white;
