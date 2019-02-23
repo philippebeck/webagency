@@ -46,8 +46,8 @@ footer {
 
 /******************/
 /***** Titles *****/
-h1,
-h2 {
+h1 {
+  line-height: 1;
   font-size: 1.5rem;
   text-transform: uppercase;
   letter-spacing: -1px;
@@ -67,20 +67,21 @@ h2 {
   @media (min-width: 1200px) {
     font-size: 4rem;
   }
-}
 
-h1 {
-  line-height: 1;
-}
-
-h1 strong {
-  color: $blue;
+  strong {
+    color: $blue;
+  }
 }
 
 h2 {
   margin-bottom: 1rem;
+  font-size: 2rem;
   text-align: center;
-}
+  text-transform: uppercase;
+
+  @media (min-width: 576px) {
+    font-size: 2.5rem;
+  }
 
 #services h3 {
   margin-left: 20%;
