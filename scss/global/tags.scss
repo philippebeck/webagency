@@ -15,16 +15,16 @@
 /******************/
 /***** Global *****/
 html {
-  margin: 0;
-  padding: 0;
+  box-sizing: border-box;
   font-size: 62.5%;
 }
 
 body {
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-  font-size: 1.4em;
+  margin: 0;
+  padding: 0;
   line-height: 1.8;
+  font-size: 1.4em;
+  font-family: "Roboto", sans-serif;
 }
 
 
