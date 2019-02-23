@@ -67,15 +67,16 @@
   }
 }
 
-@keyframes translate-X {
+@keyframes translateX-wide {
   from {
+    transform: translateX(-500%);
+  }
+  to {
     transform: translateX(0);
   }
-  25% {
-    transform: translateX(-250%);
-  }
-  75% {
-    transform: translateX(250%);
+}
+
+
   }
   to {
     transform: translateX(0);
