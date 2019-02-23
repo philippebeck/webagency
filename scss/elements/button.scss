@@ -50,8 +50,6 @@
 /***********************/
 /***** Button Menu *****/
 .btn-menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -70,8 +68,6 @@
   }
 
   & > li {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     flex-direction: column;
     align-items: center;
