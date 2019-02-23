@@ -102,4 +102,7 @@
 #corporate:checked ~ .gallery .corporate,
 #portfolio:checked ~ .gallery .portfolio {
   display: block;
+  -webkit-animation: translateX-wide 2s;
+  -o-animation: translateX-wide 2s;
+  animation: translateX-wide 2s;
 }
