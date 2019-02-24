@@ -19,6 +19,7 @@
   width: 40%;
   list-style: none;
   background-color: $light-grey;
+  color: $grey;
 
   @media  (min-width: 576px) {
     flex-direction: row;
