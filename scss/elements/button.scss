@@ -24,8 +24,8 @@
     border-bottom: solid $blue;
     background-color: $navy;
     color: $light-grey;
-    -webkit-animation: shake 1s;
-    animation: shake 1s;
+    -webkit-animation: translate 1s;
+    animation: translate 1s;
   }
 
   @media (min-width: 576px) {
