@@ -46,6 +46,10 @@
 
   address {
     font-style: normal;
+
+    & + * {
+      text-decoration: dotted underline;
+    }
   }
 
   [placeholder] {
