@@ -59,49 +59,6 @@
 }
 
 
-/*****************/
-/***** Shake *****/
-@-webkit-keyframes shake {
-  from,
-  to {
-    transform: translate(0, 0);
-  }
-  10%,
-  30%,
-  50%,
-  70%,
-  90% {
-    transform: translate(-5px, -5px);
-  }
-  20%,
-  40%,
-  60%,
-  80% {
-    transform: translate(5px, 5px);
-  }
-}
-
-@keyframes shake {
-  from,
-  to {
-    transform: translate(0, 0);
-  }
-  10%,
-  30%,
-  50%,
-  70%,
-  90% {
-    transform: translate(-5px, -5px);
-  }
-  20%,
-  40%,
-  60%,
-  80% {
-    transform: translate(5px, 5px);
-  }
-}
-
-
 /****************/
 /***** Skew *****/
 @-webkit-keyframes skew {
@@ -112,6 +69,49 @@
 @keyframes skew {
   to {
     transform: skew(180deg, 180deg);
+  }
+}
+
+
+/*********************/
+/***** Translate *****/
+@-webkit-keyframes translate {
+  from,
+  to {
+    transform: translate(0, 0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translate(-5px, -5px);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translate(5px, 5px);
+  }
+}
+
+@keyframes translate {
+  from,
+  to {
+    transform: translate(0, 0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translate(-5px, -5px);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translate(5px, 5px);
   }
 }
 
