@@ -153,13 +153,13 @@
 }
 
 #slide-auto:checked ~ figure {
-  -webkit-animation: translateX-paused 7s ease-out infinite alternate 1s;
-  animation: translateX-paused 7s ease-out infinite alternate 1s;
+  -webkit-animation: translateX-paused $slider-synchro;
+  animation: translateX-paused $slider-synchro;
 }
 
 #slide-auto:checked ~ .timeline {
-  -webkit-animation: width 7s ease-out infinite alternate 1s;
-  animation: width 7s ease-out infinite alternate 1s;
+  -webkit-animation: width 7s $slider-synchro;
+  animation: width 7s $slider-synchro;
 }
 
 
