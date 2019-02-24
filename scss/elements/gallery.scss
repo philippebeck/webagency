@@ -11,6 +11,7 @@
 .gallery {
   display: flex;
   flex-wrap: wrap;
+  overflow: hidden;
   margin: 40px -6px;
   -webkit-animation: opacity 3s linear;
   animation: opacity 3s linear;
