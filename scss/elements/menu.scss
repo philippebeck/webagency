@@ -1,0 +1,61 @@
+/**************************/
+/********** MENU **********/
+/**************************/
+
+// 1. Menu class
+
+
+/****************/
+/***** Menu *****/
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  border: none;
+  border-radius: 5px;
+  padding: 0;
+  list-style: none;
+  background-color: $light-grey;
+
+  @media  (min-width: 576px) {
+    flex-direction: row;
+  }
+
+  * {
+    cursor: crosshair;
+  }
+
+  label {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 6px 12px;
+
+    &:hover,
+    &:active,
+    &:focus {
+      border-bottom: solid $navy;
+      font-weight: bold;
+      background-color: $blue;
+      color: white;
+    }
+  }
+
+  & + figure > * {
+    display: none;
+  }
+}
+
+
+/*************************/
+/***** Menu Controls *****/
+#all:checked ~ .menu [for="all"],
+#creative:checked ~ .menu [for="creative"],
+#corporate:checked ~ .menu [for="corporate"],
+#portfolio:checked ~ .menu [for="portfolio"] {
+  border-bottom: solid $navy;
+  font-weight: bold;
+  background-color: $blue;
+  color: white;
+}
