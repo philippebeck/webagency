@@ -9,23 +9,22 @@
 /***** Button *****/
 .btn {
   display: inline-block;
+  border-right: none;
   border-bottom: solid $navy;
-  border-radius: 2px;
+  border-radius: 4px;
   padding: 8px 16px;
   background-color: $blue;
   color: white;
   font-size: 1rem;
-  font-weight: bold;
   text-align: center;
-  word-spacing: 2px;
-  letter-spacing: -1px;
 
   &:hover,
   &:active,
   &:focus {
-    border: ridge $blue;
+    border-bottom: solid $blue;
+    transform: scale(1.2);
     background-color: $navy;
-    color: Khaki;
+    color: $light-grey;
   }
 
   @media (min-width: 576px) {
