@@ -158,8 +158,8 @@
 }
 
 #slide-auto:checked ~ .timeline {
-  -webkit-animation: width 7s $slider-synchro;
-  animation: width 7s $slider-synchro;
+  -webkit-animation: width $slider-synchro;
+  animation: width $slider-synchro;
 }
 
 
