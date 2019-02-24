@@ -55,10 +55,15 @@
 //***** Rotate *****
 .rotate {
   position: absolute;
-  top: 50%;
-  left: 5%;
+  top: 5%;
+  left: 50%;
   -webkit-animation: rotate 2s ease-in-out 2 alternate;
   animation: rotate 2s ease-in-out 2 alternate;
+
+  @media (min-width: 576px) {
+    top: 50%;
+    left: 5%;
+  }
 
   .disc {
     -webkit-transform: $center translate(33px, 0);
