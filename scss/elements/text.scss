@@ -32,9 +32,12 @@
     }
 
     p {
-      margin-top: 0;
-      margin-left: 20%;
+      margin-top: 10px;
       text-align: justify;
+
+      @media (min-width: 576px) {
+        margin-left: 20%;
+      }
     }
   }
 
