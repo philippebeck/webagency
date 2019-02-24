@@ -11,7 +11,7 @@
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   position: fixed;
   top: 0;
   width: 100%;
@@ -21,16 +21,41 @@
   letter-spacing: -1px;
   z-index: 10;
 
+  @media (min-width: 576px) {
+    justify-content: space-between;
+  }
+
+  @media (min-width: 768px) {
+    justify-content: space-around;
+  }
+
   [title="Accueil"] {
     padding: 22px 10px 21px;
     -webkit-animation: skew 2s linear 1s;
     animation: skew 2s linear 1s;
+
+    @media (min-width: 992px) {
+      margin-left: -5%;
+    }
+
+    @media (min-width: 1200px) {
+      margin-left: -10%;
+    }
   }
 
   ul {
-    @media (min-width: 768px) {
+    @media (min-width: 576px) {
       display: flex;
     }
+
+    @media (min-width: 992px) {
+      margin-right: -5%;
+    }
+
+    @media (min-width: 1200px) {
+      margin-right: -10%;
+    }
+
     a {
       padding: 39px 12px 41px;
       color: $grey;
@@ -53,7 +78,7 @@
     -webkit-animation : translateY-tiny 1s ease-in-out infinite alternate;
     animation : translateY-tiny 1s ease-in-out infinite alternate;
 
-    @media (min-width: 768px) {
+    @media (min-width: 576px) {
       display: none;
     }
   }
@@ -77,7 +102,7 @@
 }
 
 #nav-close:checked + a {
-  @media (min-width: 768px) {
+  @media (min-width: 576px) {
     display: flex;
   }
 }
