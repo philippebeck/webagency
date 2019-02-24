@@ -113,9 +113,20 @@
 }
 
 .fa-caret-down {
-  position: relative;
-  bottom: 6px;
+  display: none;
+  position: absolute;
+  left: 40%;
+  bottom: -18px;
   color: $navy;
+}
+
+#all:checked ~ .menu [for="all"] .fa-caret-down,
+#creative:checked ~ .menu [for="creative"] .fa-caret-down,
+#corporate:checked ~ .menu [for="corporate"] .fa-caret-down,
+#portfolio:checked ~ .menu [for="portfolio"] .fa-caret-down {
+  @media (min-width: 576px) {
+    display: block;
+  }
 }
 
 .fa-eye {
