@@ -340,12 +340,12 @@
                 </section>
 
                 <!-- Contact Form -->
-                <form method="post" action="form.php">
-                    <input type="text"  name="name"    placeholder="Name">
-                    <input type="email" name="email"   placeholder="Email">
-                    <input type="text"  name="subject" placeholder="Subject">
-                    <textarea name="message" rows="10" placeholder="Message"></textarea>
-                    <input class="btn" type="submit" value="Send Message">
+                <form>
+                    <input type="text" name="name" placeholder="Name" minlength="5" maxlength="100" required>
+                    <input type="email" name="email" placeholder="Email" minlength="5" maxlength="100" required>
+                    <input type="text" name="subject" placeholder="Subject" minlength="5" maxlength="100" required>
+                    <textarea name="message" rows="10" placeholder="Message" minlength="20" spellcheck required></textarea>
+                    <input class="btn" type="submit" value="Send Message" title="Non Fonctionnel">
                 </form>
             </section>
 
