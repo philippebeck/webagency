@@ -42,9 +42,16 @@
   }
 
   h3 {
-    margin-left: 20%;
+    margin-top: 0;
     margin-bottom: 0;
-    padding-bottom: 10px;
+    padding-top: 80px;
+    text-align: center;
+
+    @media (min-width: 576px) {
+      margin-left: 20%;
+      padding-top: 0;
+      text-align: left;
+    }
   }
 }
 
