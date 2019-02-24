@@ -60,9 +60,9 @@
     }
   }
 
-  textarea {
-    @media (min-width: 768px) {
-      width: 310px;
-    }
+  [placeholder="Message"] {
+    border: solid 1px $grey;
+    border-radius: 4px;
+    width: calc(100% + 10px);
   }
 }
