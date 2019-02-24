@@ -22,9 +22,10 @@
   &:active,
   &:focus {
     border-bottom: solid $blue;
-    transform: scale(1.2);
     background-color: $navy;
     color: $light-grey;
+    -webkit-animation: shake 1s;
+    animation: shake 1s;
   }
 
   @media (min-width: 576px) {
