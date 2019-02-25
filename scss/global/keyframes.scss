@@ -2,33 +2,14 @@
 //********** KEYFRAMES **********
 //*******************************
 
-// 1. Opacity
-// 2. Rotate
+// 1. Rotate
+// 2. Rotate3d
 // 3. Scale
 // 4. Skew
-// 5. TranslateX
-// 6. TranslateY
-// 7. Width
-
-
-/*******************/
-/***** Opacity *****/
-@-webkit-keyframes opacity {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@keyframes opacity {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
+// 5. Translate
+// 6. TranslateX
+// 7. TranslateY
+// 8. Width
 
 
 /******************/
@@ -53,7 +34,6 @@
     transform: rotate3d(1, 0, 1, 180deg);
   }
 }
-
 @keyframes rotate3d {
   from {
     opacity: 0;
@@ -124,7 +104,6 @@
     transform: translate(5px, 5px);
   }
 }
-
 @keyframes translate {
   from,
   to {
