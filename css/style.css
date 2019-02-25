@@ -1,25 +1,3 @@
-/*******************/
-/***** Opacity *****/
-@-webkit-keyframes opacity {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes opacity {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
 /******************/
 /***** Rotate *****/
 @-webkit-keyframes rotate {
@@ -34,6 +12,22 @@
   }
 }
 
+/********************/
+/***** Rotate3d *****/
+@-webkit-keyframes rotate3d {
+  from {
+    opacity: 0;
+    transform: rotate3d(1, 0, 1, 180deg);
+  }
+}
+
+@keyframes rotate3d {
+  from {
+    opacity: 0;
+    transform: rotate3d(1, 0, 1, 180deg);
+  }
+}
+
 /*****************/
 /***** Scale *****/
 @-webkit-keyframes scale {
@@ -45,6 +39,20 @@
 @keyframes scale {
   to {
     transform: scale(1.5);
+  }
+}
+
+@-webkit-keyframes scale-opacity {
+  from {
+    opacity: 0;
+    transform: scale(0, 2);
+  }
+}
+
+@keyframes scale-opacity {
+  from {
+    opacity: 0;
+    transform: scale(0, 2);
   }
 }
 
@@ -112,26 +120,6 @@
 /***** TranslateX *****/
 @-webkit-keyframes translateX-large {
   from {
-    transform: translateX(300%);
-  }
-
-  to {
-    transform: translateX(0);
-  }
-}
-
-@keyframes translateX-large {
-  from {
-    transform: translateX(300%);
-  }
-
-  to {
-    transform: translateX(0);
-  }
-}
-
-@-webkit-keyframes translateX-medium {
-  from {
     transform: translateX(0);
   }
 
@@ -148,7 +136,7 @@
   }
 }
 
-@keyframes translateX-medium {
+@keyframes translateX-large {
   from {
     transform: translateX(0);
   }
@@ -557,8 +545,8 @@ article > p {
 *:hover > .under-title .disc,
 *:focus > .under-title .disc,
 *:active > .under-title .disc {
-  -webkit-animation: translateX-medium 4s ease-in-out;
-  animation: translateX-medium 4s ease-in-out;
+  -webkit-animation: translateX-large 4s ease-in-out;
+  animation: translateX-large 4s ease-in-out;
 }
 
 /************************/
@@ -974,6 +962,8 @@ article > p {
 
 .text img {
   width: unset;
+  -webkit-animation: scale-opacity 2s;
+  animation: scale-opacity 2s;
 }
 @media (min-width: 768px) {
   .text img {
@@ -1111,8 +1101,6 @@ article > p {
   flex-wrap: wrap;
   overflow: hidden;
   margin: 40px -6px;
-  -webkit-animation: opacity 3s linear;
-  animation: opacity 3s linear;
 }
 @media (min-width: 576px) {
   .gallery {
@@ -1194,8 +1182,8 @@ article > p {
 #corporate:checked ~ .gallery .corporate,
 #portfolio:checked ~ .gallery .portfolio {
   display: block;
-  -webkit-animation: translateX-large 2s;
-  animation: translateX-large 2s;
+  -webkit-animation: rotate3d 2s;
+  animation: rotate3d 2s;
 }
 
 .contact {
