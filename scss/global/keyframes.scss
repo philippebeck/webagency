@@ -120,23 +120,6 @@
 /***** TranslateX *****/
 @-webkit-keyframes translateX-large {
   from {
-    transform: translateX(300%);
-  }
-  to {
-    transform: translateX(0);
-  }
-}
-@keyframes translateX-large {
-  from {
-    transform: translateX(300%);
-  }
-  to {
-    transform: translateX(0);
-  }
-}
-
-@-webkit-keyframes translateX-medium {
-  from {
     transform: translateX(0);
   }
   25% {
@@ -149,7 +132,7 @@
     transform: translateX(0);
   }
 }
-@keyframes translateX-medium {
+@keyframes translateX-large {
   from {
     transform: translateX(0);
   }
