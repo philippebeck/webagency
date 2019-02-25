@@ -13,8 +13,6 @@
   flex-wrap: wrap;
   overflow: hidden;
   margin: 40px -6px;
-  -webkit-animation: opacity 3s linear;
-  animation: opacity 3s linear;
 
   @media (min-width: 576px) {
     margin-right: -8px;
@@ -99,6 +97,6 @@
 #corporate:checked ~ .gallery .corporate,
 #portfolio:checked ~ .gallery .portfolio {
   display: block;
-  -webkit-animation: translateX-large 2s;
-  animation: translateX-large 2s;
+  -webkit-animation: rotate3d 2s;
+  animation: rotate3d 2s;
 }
