@@ -67,4 +67,8 @@
     border-radius: 4px;
     width: calc(100% + 10px);
   }
+
+  [type="submit"] {
+    cursor: not-allowed;
+  }
 }
