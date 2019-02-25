@@ -45,6 +45,23 @@
 }
 
 
+/********************/
+/***** Rotate3d *****/
+@-webkit-keyframes rotate3d {
+  from {
+    opacity: 0;
+    transform: rotate3d(1, 0, 1, 180deg);
+  }
+}
+
+@keyframes rotate3d {
+  from {
+    opacity: 0;
+    transform: rotate3d(1, 0, 1, 180deg);
+  }
+}
+
+
 /*****************/
 /***** Scale *****/
 @-webkit-keyframes scale {
