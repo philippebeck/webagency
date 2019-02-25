@@ -208,19 +208,11 @@
     opacity: 0;
     transform: translateY(68px);
   }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
 @keyframes translateY-opacity {
   from {
     opacity: 0;
     transform: translateY(68px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
   }
 }
 
@@ -230,7 +222,7 @@
   }
 }
 @keyframes translateY-tiny {
-to {
+  to {
     transform: translateY(10px);
   }
 }
