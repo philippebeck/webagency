@@ -362,7 +362,6 @@ template {
             transform: rotate(-360deg);
   }
 }
-
 @keyframes rotate {
   to {
     -webkit-transform: rotate(-360deg);
@@ -379,7 +378,6 @@ template {
             transform: rotate3d(1, 0, 1, 180deg);
   }
 }
-
 @keyframes rotate3d {
   from {
     opacity: 0;
@@ -396,7 +394,6 @@ template {
             transform: scale(1.5);
   }
 }
-
 @keyframes scale {
   to {
     -webkit-transform: scale(1.5);
@@ -428,7 +425,6 @@ template {
             transform: skew(180deg, 180deg);
   }
 }
-
 @keyframes skew {
   to {
     -webkit-transform: skew(180deg, 180deg);
@@ -462,7 +458,6 @@ template {
             transform: translate(5px, 5px);
   }
 }
-
 @keyframes translate {
   from,
   to {
@@ -511,7 +506,6 @@ template {
             transform: translateX(0);
   }
 }
-
 @keyframes translateX-large {
   from {
     -webkit-transform: translateX(0);
@@ -609,7 +603,6 @@ template {
             transform: translateY(68px);
   }
 }
-
 @keyframes translateY-opacity {
   from {
     opacity: 0;
@@ -651,7 +644,6 @@ template {
     width: 100%;
   }
 }
-
 @keyframes width {
   from {
     width: 0;
@@ -768,7 +760,6 @@ a {
 }
 a:active, a:focus {
   outline: 0;
-  -moz-outline-style: none;
 }
 
 /******************/
@@ -884,7 +875,7 @@ article > p {
   width: 67px;
   height: 67px;
   -webkit-transform: translate(-50%, -50%) rotate(45deg);
-  transform: translate(-50%, -50%) rotate(45deg);
+          transform: translate(-50%, -50%) rotate(45deg);
 }
 
 .disc {
@@ -901,7 +892,7 @@ article > p {
   top: 5%;
   left: 50%;
   -webkit-animation: rotate 2s ease-in-out 2 alternate;
-  animation: rotate 2s ease-in-out 2 alternate;
+          animation: rotate 2s ease-in-out 2 alternate;
 }
 @media (min-width: 576px) {
   .rotate {
@@ -911,14 +902,14 @@ article > p {
 }
 .rotate .disc {
   -webkit-transform: translate(-50%, -50%) translate(33px, 0);
-  transform: translate(-50%, -50%) translate(33px, 0);
+          transform: translate(-50%, -50%) translate(33px, 0);
 }
 
 *:hover > .rotate,
 *:focus > .rotate,
 *:active > .rotate {
   -webkit-animation: rotate 3s linear infinite;
-  animation: rotate 3s linear infinite;
+          animation: rotate 3s linear infinite;
 }
 
 /***********************/
@@ -940,7 +931,7 @@ article > p {
 *:focus > .under-title .disc,
 *:active > .under-title .disc {
   -webkit-animation: translateX-large 4s ease-in-out;
-  animation: translateX-large 4s ease-in-out;
+          animation: translateX-large 4s ease-in-out;
 }
 
 /************************/
@@ -1012,7 +1003,7 @@ article > p {
 .navbar [title="Accueil"] {
   padding: 22px 10px 21px;
   -webkit-animation: skew 2s linear 1s;
-  animation: skew 2s linear 1s;
+          animation: skew 2s linear 1s;
 }
 @media (min-width: 992px) {
   .navbar [title="Accueil"] {
@@ -1058,7 +1049,7 @@ article > p {
   right: 0;
   padding: 30px 10px;
   -webkit-animation: translateY-tiny 1s ease-in-out infinite alternate;
-  animation: translateY-tiny 1s ease-in-out infinite alternate;
+          animation: translateY-tiny 1s ease-in-out infinite alternate;
 }
 @media (min-width: 576px) {
   .navbar label {
@@ -1109,7 +1100,7 @@ article > p {
   background-color: #3292b9;
   color: #e4e4e4;
   -webkit-animation: translate 1s;
-  animation: translate 1s;
+          animation: translate 1s;
 }
 @media (min-width: 576px) {
   .btn {
@@ -1205,35 +1196,35 @@ article > p {
   color: white;
   background-color: rgba(0, 0, 0, 0.3);
   -webkit-transform: scale(0.6);
-  transform: scale(0.6);
+          transform: scale(0.6);
   z-index: 5;
 }
 @media (min-width: 576px) {
   .slider label {
     top: 35%;
     -webkit-transform: scale(0.7);
-    transform: scale(0.7);
+            transform: scale(0.7);
   }
 }
 @media (min-width: 768px) {
   .slider label {
     top: 40%;
     -webkit-transform: scale(0.8);
-    transform: scale(0.8);
+            transform: scale(0.8);
   }
 }
 @media (min-width: 992px) {
   .slider label {
     top: 43%;
     -webkit-transform: scale(0.9);
-    transform: scale(0.9);
+            transform: scale(0.9);
   }
 }
 @media (min-width: 1200px) {
   .slider label {
     top: 45%;
     -webkit-transform: scale(1);
-    transform: scale(1);
+            transform: scale(1);
   }
 }
 
@@ -1283,12 +1274,12 @@ article > p {
 
 #slide-auto:checked ~ figure {
   -webkit-animation: translateX-paused 7s ease-out infinite alternate 1s;
-  animation: translateX-paused 7s ease-out infinite alternate 1s;
+          animation: translateX-paused 7s ease-out infinite alternate 1s;
 }
 
 #slide-auto:checked ~ .timeline {
   -webkit-animation: width 7s ease-out infinite alternate 1s;
-  animation: width 7s ease-out infinite alternate 1s;
+          animation: width 7s ease-out infinite alternate 1s;
 }
 
 /**********************/
@@ -1321,7 +1312,7 @@ article > p {
 
 #slide-left:checked ~ figure {
   -webkit-transform: translateX(0);
-  transform: translateX(0);
+          transform: translateX(0);
 }
 
 #slide-left:checked ~ .timeline {
@@ -1358,7 +1349,7 @@ article > p {
 
 #slide-right:checked ~ figure {
   -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 #slide-right:checked ~ .timeline {
@@ -1368,7 +1359,7 @@ article > p {
 .text img {
   width: unset;
   -webkit-animation: scale-opacity 2s;
-  animation: scale-opacity 2s;
+          animation: scale-opacity 2s;
 }
 @media (min-width: 768px) {
   .text img {
@@ -1575,7 +1566,7 @@ article > p {
 .gallery figure:hover figcaption {
   display: block;
   -webkit-animation: translateY-opacity 2s;
-  animation: translateY-opacity 2s;
+          animation: translateY-opacity 2s;
   bottom: 0;
 }
 .gallery figcaption {
@@ -1608,7 +1599,7 @@ article > p {
 #portfolio:checked ~ .gallery .portfolio {
   display: block;
   -webkit-animation: rotate3d 2s;
-  animation: rotate3d 2s;
+          animation: rotate3d 2s;
 }
 
 .contact {
@@ -1623,7 +1614,7 @@ article > p {
     right: 100px;
     margin-top: -250px;
     -webkit-animation: translateX-wide 5s ease-out;
-    animation: translateX-wide 5s ease-out;
+            animation: translateX-wide 5s ease-out;
   }
 }
 .contact > * {
@@ -1679,4 +1670,4 @@ article > p {
 }
 
 /* Author: Philippe Beck <philippe@philippebeck.net>
- Updated: 6th Mar 2019 @ 2:56:12 PM */
+ Updated: 6th Mar 2019 @ 3:15:43 PM */
