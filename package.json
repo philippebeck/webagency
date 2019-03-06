@@ -1,0 +1,31 @@
+{
+  "name": "webagency",
+  "version": "0.1.1",
+  "description": "L'agence de tous vos projets ! Vous avez un projet web ? La WebAgency vous aide à le réaliser !",
+  "keywords": [
+    "website",
+    "html",
+    "css",
+    "integration"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/philippebeck/webagency-draft.git"
+  },
+  "author": {
+    "name": "Philippe Beck",
+    "email": "philippe@philippebeck.net",
+    "homepage": "https://philippebeck.net"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.4.10",
+    "grunt": "^1.0.3",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-postcss": "^0.9.0",
+    "normalize.css": "~8.0.1"
+  },
+  "bugs": "https://github.com/philippebeck/webagency-draft/issues",
+  "homepage": "http://webagency.philippebeck.net"
+}
