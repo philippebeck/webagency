@@ -57,7 +57,6 @@
 
     &:hover figcaption {
       display: block;
-      -webkit-animation: translateY-opacity 2s;
       animation: translateY-opacity 2s;
       bottom: 0;
     }
@@ -98,6 +97,5 @@
 #corporate:checked ~ .gallery .corporate,
 #portfolio:checked ~ .gallery .portfolio {
   display: block;
-  -webkit-animation: rotate3d 2s;
   animation: rotate3d 2s;
 }

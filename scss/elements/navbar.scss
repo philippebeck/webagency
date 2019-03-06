@@ -29,7 +29,6 @@
 
   [title="Accueil"] {
     padding: 22px 10px 21px;
-    -webkit-animation: skew 2s linear 1s;
     animation: skew 2s linear 1s;
 
     @media (min-width: 992px) {
@@ -73,7 +72,6 @@
     top: 0;
     right: 0;
     padding: 30px 10px;
-    -webkit-animation : translateY-tiny 1s ease-in-out infinite alternate;
     animation : translateY-tiny 1s ease-in-out infinite alternate;
 
     @media (min-width: 576px) {

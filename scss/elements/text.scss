@@ -5,7 +5,6 @@
 .text {
   img {
     width: unset;
-    -webkit-animation: scale-opacity 2s;
     animation: scale-opacity 2s;
 
     @media (min-width: 768px) {
