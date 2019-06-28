@@ -1,6 +1,4 @@
-//*********************************
 //********** DECORATIONS **********
-//*********************************
 
 // 1. Center
 // 2. Circle
@@ -9,8 +7,6 @@
 // 5. Under-Title
 // 6. Font-Awesome
 
-
-//******************
 //***** Center *****
 .center {
   position: absolute;
@@ -24,8 +20,6 @@
   }
 }
 
-
-//******************
 //***** Circle *****
 .circle {
   position: absolute;
@@ -36,8 +30,6 @@
   transform: $center rotate(45deg);
 }
 
-
-//****************
 //***** Disc *****
 .disc {
   position: absolute;
@@ -48,8 +40,6 @@
   border-radius: 50%;
 }
 
-
-//******************
 //***** Rotate *****
 .rotate {
   position: absolute;
@@ -73,8 +63,6 @@
   animation: rotate 3s linear infinite;
 }
 
-
-/***********************/
 /***** Under-Title *****/
 .under-title {
   position: relative;
@@ -96,8 +84,6 @@
   animation: translateX-large 4s ease-in-out;
 }
 
-
-/************************/
 /***** Font-Awesome *****/
 .fa-chart-line,
 .fa-cubes,
