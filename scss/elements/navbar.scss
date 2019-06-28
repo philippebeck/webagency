@@ -1,12 +1,8 @@
-//****************************
 //********** NAVBAR **********
-//****************************
 
 // 1. Navbar class
 // 2. Navbar Controls
 
-
-/******************/
 /***** Navbar *****/
 .navbar {
   display: flex;
@@ -84,8 +80,6 @@
   }
 }
 
-
-/***************************/
 /***** Navbar Controls *****/
 #nav-close:checked ~ ul {
   display: flex;
