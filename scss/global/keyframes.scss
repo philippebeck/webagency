@@ -1,6 +1,4 @@
-//*******************************
 //********** KEYFRAMES **********
-//*******************************
 
 // 1. Rotate
 // 2. Rotate3d
@@ -11,7 +9,6 @@
 // 7. TranslateY
 // 8. Width
 
-/*****************/
 /***** Opacity *****/
 @keyframes opacity {
   from {
@@ -19,8 +16,6 @@
   }
 }
 
-
-/******************/
 /***** Rotate *****/
 @keyframes rotate {
   to {
@@ -28,8 +23,6 @@
   }
 }
 
-
-/********************/
 /***** Rotate3d *****/
 @keyframes rotate3d {
   from {
@@ -38,8 +31,6 @@
   }
 }
 
-
-/*****************/
 /***** Scale *****/
 @keyframes scale {
   to {
@@ -54,8 +45,6 @@
   }
 }
 
-
-/****************/
 /***** Skew *****/
 @keyframes skew {
   to {
@@ -63,8 +52,6 @@
   }
 }
 
-
-/*********************/
 /***** Translate *****/
 @keyframes translate {
   from,
@@ -86,8 +73,6 @@
   }
 }
 
-
-/**********************/
 /***** TranslateX *****/
 @keyframes translateX-large {
   from {
@@ -127,8 +112,6 @@
   }
 }
 
-
-/**********************/
 /***** TranslateY *****/
 @keyframes translateY-opacity {
   from {
@@ -143,8 +126,6 @@
   }
 }
 
-
-/*****************/
 /***** Width *****/
 @keyframes width {
   from {
