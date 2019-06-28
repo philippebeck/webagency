@@ -17,8 +17,13 @@
 
   figure {
     display: flex;
+    align-items: flex-start;
     width: 200%;
     margin: 0;
+  }
+
+  img {
+    width: 50%;
   }
 
   section {
