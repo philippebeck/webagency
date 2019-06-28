@@ -5,8 +5,6 @@ module.exports = function(grunt) {
 
         concat: {
             options: {
-                sourceMap: true,
-                sourceMapName: 'css/map/style.css.map',
                 banner: '/* <%= pkg.name %> v<%= pkg.version %> | <%= pkg.homepage %> | <%= pkg.license %> License */\n\n',
                 footer: '\n/* Author: <%= pkg.author.name %> <<%= pkg.author.email %>>\n Updated: <%= grunt.template.today("dS mmm yyyy @ h:MM:ss TT") %> */'
             },
