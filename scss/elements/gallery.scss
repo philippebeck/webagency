@@ -97,5 +97,5 @@
 #corporate:checked ~ .gallery .corporate,
 #portfolio:checked ~ .gallery .portfolio {
   display: block;
-  animation: rotate3d 2s;
+  animation: opacity 5s;
 }
