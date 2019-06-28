@@ -74,23 +74,23 @@
     top: 30%;
     overflow: hidden;
     color: white;
-    background-color: rgba(0,0,0,.3);
-    transform: scale(.6);
+    background-color: rgba(0, 0, 0, 0.3);
+    transform: scale(0.6);
     z-index: 5;
 
     @media (min-width: 576px) {
       top: 35%;
-      transform: scale(.7);
+      transform: scale(0.7);
     }
 
     @media (min-width: 768px) {
       top: 40%;
-      transform: scale(.8);
+      transform: scale(0.8);
     }
 
     @media (min-width: 992px) {
       top: 43%;
-      transform: scale(.9);
+      transform: scale(0.9);
     }
 
     @media (min-width: 1200px) {
@@ -149,7 +149,7 @@
 /***** Slide Left *****/
 [for="slide-left"] {
   left: -8px;
-  border-radius:  0 50px 50px 0;
+  border-radius: 0 50px 50px 0;
   padding: 20px 10px 20px 0;
 
   @media (min-width: 576px) {
