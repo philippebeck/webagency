@@ -5,6 +5,7 @@
 ## [Junior Web Developer](https://openclassrooms.com/fr/paths/48-developpeur-web-junior) - Project 1
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/532575a525734fbc86c89568292ea9ea)](https://www.codacy.com/app/philippebeck/webagency?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=philippebeck/webagency&amp;utm_campaign=Badge_Grade)
+[![David Dev Dependencies](https://img.shields.io/david/dev/philippebeck/webagency.svg?label=Dev+Dependencies)](https://david-dm.org/philippebeck/webagency?type=dev)
 
 The site must fit on a page with a menu that remains visible at the top of the page, even when you move in the page.
 
