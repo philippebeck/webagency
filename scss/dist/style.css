@@ -1,3 +1,11 @@
+/*****************/
+/***** Opacity *****/
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+}
+
 /******************/
 /***** Rotate *****/
 @keyframes rotate {
@@ -463,7 +471,7 @@ article > p {
 }
 .navbar [title="Accueil"] {
   padding: 22px 10px 21px;
-  animation: skew 2s linear 1s;
+  animation: translate 2s linear 1s;
 }
 @media (min-width: 992px) {
   .navbar [title="Accueil"] {
@@ -797,7 +805,6 @@ article > p {
 
 .text img {
   width: unset;
-  animation: scale-opacity 2s;
 }
 @media (min-width: 768px) {
   .text img {
@@ -1016,7 +1023,7 @@ article > p {
 #corporate:checked ~ .gallery .corporate,
 #portfolio:checked ~ .gallery .portfolio {
   display: block;
-  animation: rotate3d 2s;
+  animation: opacity 5s;
 }
 
 .contact {

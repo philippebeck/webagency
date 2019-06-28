@@ -354,6 +354,19 @@ template {
   display: none;
 }
 
+/*****************/
+/***** Opacity *****/
+@-webkit-keyframes opacity {
+  from {
+    opacity: 0;
+  }
+}
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+}
+
 /******************/
 /***** Rotate *****/
 @-webkit-keyframes rotate {
@@ -1002,8 +1015,8 @@ article > p {
 }
 .navbar [title="Accueil"] {
   padding: 22px 10px 21px;
-  -webkit-animation: skew 2s linear 1s;
-          animation: skew 2s linear 1s;
+  -webkit-animation: translate 2s linear 1s;
+          animation: translate 2s linear 1s;
 }
 @media (min-width: 992px) {
   .navbar [title="Accueil"] {
@@ -1358,8 +1371,6 @@ article > p {
 
 .text img {
   width: unset;
-  -webkit-animation: scale-opacity 2s;
-          animation: scale-opacity 2s;
 }
 @media (min-width: 768px) {
   .text img {
@@ -1598,8 +1609,8 @@ article > p {
 #corporate:checked ~ .gallery .corporate,
 #portfolio:checked ~ .gallery .portfolio {
   display: block;
-  -webkit-animation: rotate3d 2s;
-          animation: rotate3d 2s;
+  -webkit-animation: opacity 5s;
+          animation: opacity 5s;
 }
 
 .contact {
@@ -1670,4 +1681,4 @@ article > p {
 }
 
 /* Author: Philippe Beck <philippe@philippebeck.net>
- Updated: 6th Mar 2019 @ 3:15:43 PM */
+ Updated: 28th Jun 2019 @ 6:46:45 AM */
