@@ -1,6 +1,4 @@
-//****************************
 //********** SLIDER **********
-//****************************
 
 // 1. Slider class
 // 2. Timeline class
@@ -8,8 +6,6 @@
 // 4. Slide Left
 // 5. Slide Right
 
-
-/******************/
 /***** Slider *****/
 .slider {
   position: relative;
@@ -104,8 +100,6 @@
   }
 }
 
-
-/********************/
 /***** Timeline *****/
 .timeline {
   height: 3px;
@@ -128,8 +122,6 @@
   }
 }
 
-
-/**********************/
 /***** Slide Auto *****/
 [for="slide-auto"] {
   right: 50%;
@@ -154,8 +146,6 @@
   animation: width $slider-synchro;
 }
 
-
-/**********************/
 /***** Slide Left *****/
 [for="slide-left"] {
   left: -8px;
@@ -187,8 +177,6 @@
   width: 0;
 }
 
-
-/***********************/
 /***** Slide Right *****/
 [for="slide-right"] {
   right: -8px;
