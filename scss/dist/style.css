@@ -1,4 +1,3 @@
-/*****************/
 /***** Opacity *****/
 @keyframes opacity {
   from {
@@ -6,7 +5,6 @@
   }
 }
 
-/******************/
 /***** Rotate *****/
 @keyframes rotate {
   to {
@@ -14,7 +12,6 @@
   }
 }
 
-/********************/
 /***** Rotate3d *****/
 @keyframes rotate3d {
   from {
@@ -23,7 +20,6 @@
   }
 }
 
-/*****************/
 /***** Scale *****/
 @keyframes scale {
   to {
@@ -38,7 +34,6 @@
   }
 }
 
-/****************/
 /***** Skew *****/
 @keyframes skew {
   to {
@@ -46,7 +41,6 @@
   }
 }
 
-/*********************/
 /***** Translate *****/
 @keyframes translate {
   from,
@@ -70,7 +64,6 @@
   }
 }
 
-/**********************/
 /***** TranslateX *****/
 @keyframes translateX-large {
   from {
@@ -116,7 +109,6 @@
   }
 }
 
-/**********************/
 /***** TranslateY *****/
 @keyframes translateY-opacity {
   from {
@@ -131,7 +123,6 @@
   }
 }
 
-/*****************/
 /***** Width *****/
 @keyframes width {
   from {
@@ -149,7 +140,6 @@
   }
 }
 
-/******************/
 /***** Global *****/
 html {
   box-sizing: border-box;
@@ -165,14 +155,12 @@ body {
   scroll-behavior: smooth;
 }
 
-/*********************/
 /***** Structure *****/
 article,
 footer {
   padding-top: 100px;
 }
 
-/******************/
 /***** Titles *****/
 h1 {
   line-height: 1;
@@ -232,14 +220,12 @@ h2 {
   }
 }
 
-/*****************/
 /***** Lists *****/
 ul {
   padding: 0;
   list-style: none;
 }
 
-/*****************/
 /***** Links *****/
 a {
   text-decoration: none;
@@ -248,7 +234,6 @@ a:active, a:focus {
   outline: 0;
 }
 
-/******************/
 /***** Medias *****/
 figure img {
   width: 100%;
@@ -259,7 +244,6 @@ iframe {
   height: 88vh;
 }
 
-/****************/
 /***** Text *****/
 article > p {
   margin-top: 25px;
@@ -291,13 +275,11 @@ article > p {
   }
 }
 
-/*****************/
 /***** Forms *****/
 [type="radio"] {
   display: none;
 }
 
-/***************************/
 /***** Display Helpers *****/
 .block {
   display: block;
@@ -311,7 +293,6 @@ article > p {
   display: none;
 }
 
-/****************************/
 /***** Position Helpers *****/
 .absolute {
   position: absolute;
@@ -321,14 +302,12 @@ article > p {
   position: relative;
 }
 
-/****************************/
 /***** Container Helper *****/
 .container {
   margin: auto;
   max-width: 80%;
 }
 
-/**************************/
 /***** Cursor Helpers *****/
 .crosshair {
   cursor: crosshair;
@@ -391,7 +370,6 @@ article > p {
   animation: rotate 3s linear infinite;
 }
 
-/***********************/
 /***** Under-Title *****/
 .under-title {
   position: relative;
@@ -412,7 +390,6 @@ article > p {
   animation: translateX-large 4s ease-in-out;
 }
 
-/************************/
 /***** Font-Awesome *****/
 .fa-chart-line,
 .fa-cubes,
@@ -446,7 +423,6 @@ article > p {
   background-color: #2fa2be;
 }
 
-/******************/
 /***** Navbar *****/
 .navbar {
   display: flex;
@@ -523,7 +499,6 @@ article > p {
   margin-top: 100px;
 }
 
-/***************************/
 /***** Navbar Controls *****/
 #nav-close:checked ~ ul {
   display: flex;
@@ -541,7 +516,6 @@ article > p {
   }
 }
 
-/******************/
 /***** Button *****/
 .btn {
   display: inline-block;
@@ -581,7 +555,6 @@ article > p {
   }
 }
 
-/******************/
 /***** Slider *****/
 .slider {
   position: relative;
@@ -683,7 +656,6 @@ article > p {
   }
 }
 
-/********************/
 /***** Timeline *****/
 .timeline {
   height: 3px;
@@ -710,7 +682,6 @@ article > p {
   }
 }
 
-/**********************/
 /***** Slide Auto *****/
 [for="slide-auto"] {
   right: 50%;
@@ -735,7 +706,6 @@ article > p {
   animation: width 7s ease-out infinite alternate 1s;
 }
 
-/**********************/
 /***** Slide Left *****/
 [for="slide-left"] {
   left: -8px;
@@ -771,7 +741,6 @@ article > p {
   width: 0;
 }
 
-/***********************/
 /***** Slide Right *****/
 [for="slide-right"] {
   right: -8px;
@@ -862,10 +831,7 @@ article > p {
   }
 }
 
-/**************************/
 /********** MENU **********/
-/**************************/
-/****************/
 /***** Menu *****/
 .menu {
   display: flex;
@@ -927,7 +893,6 @@ article > p {
   display: none;
 }
 
-/*************************/
 /***** Menu Controls *****/
 #all:checked ~ .menu [for="all"],
 #creative:checked ~ .menu [for="creative"],
@@ -939,7 +904,6 @@ article > p {
   color: white;
 }
 
-/*******************/
 /***** Gallery *****/
 .gallery {
   display: flex;
@@ -1020,7 +984,6 @@ article > p {
   padding: 0 10px 20px;
 }
 
-/****************************/
 /***** Gallery Controls *****/
 #all:checked ~ .gallery .all,
 #creative:checked ~ .gallery .creative,

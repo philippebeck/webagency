@@ -354,7 +354,6 @@ template {
   display: none;
 }
 
-/*****************/
 /***** Opacity *****/
 @-webkit-keyframes opacity {
   from {
@@ -367,7 +366,6 @@ template {
   }
 }
 
-/******************/
 /***** Rotate *****/
 @-webkit-keyframes rotate {
   to {
@@ -382,7 +380,6 @@ template {
   }
 }
 
-/********************/
 /***** Rotate3d *****/
 @-webkit-keyframes rotate3d {
   from {
@@ -399,7 +396,6 @@ template {
   }
 }
 
-/*****************/
 /***** Scale *****/
 @-webkit-keyframes scale {
   to {
@@ -430,7 +426,6 @@ template {
   }
 }
 
-/****************/
 /***** Skew *****/
 @-webkit-keyframes skew {
   to {
@@ -445,7 +440,6 @@ template {
   }
 }
 
-/*********************/
 /***** Translate *****/
 @-webkit-keyframes translate {
   from,
@@ -496,7 +490,6 @@ template {
   }
 }
 
-/**********************/
 /***** TranslateX *****/
 @-webkit-keyframes translateX-large {
   from {
@@ -607,7 +600,6 @@ template {
   }
 }
 
-/**********************/
 /***** TranslateY *****/
 @-webkit-keyframes translateY-opacity {
   from {
@@ -638,7 +630,6 @@ template {
   }
 }
 
-/*****************/
 /***** Width *****/
 @-webkit-keyframes width {
   from {
@@ -675,7 +666,6 @@ template {
   }
 }
 
-/******************/
 /***** Global *****/
 html {
   -webkit-box-sizing: border-box;
@@ -692,14 +682,12 @@ body {
   scroll-behavior: smooth;
 }
 
-/*********************/
 /***** Structure *****/
 article,
 footer {
   padding-top: 100px;
 }
 
-/******************/
 /***** Titles *****/
 h1 {
   line-height: 1;
@@ -759,14 +747,12 @@ h2 {
   }
 }
 
-/*****************/
 /***** Lists *****/
 ul {
   padding: 0;
   list-style: none;
 }
 
-/*****************/
 /***** Links *****/
 a {
   text-decoration: none;
@@ -775,7 +761,6 @@ a:active, a:focus {
   outline: 0;
 }
 
-/******************/
 /***** Medias *****/
 figure img {
   width: 100%;
@@ -786,7 +771,6 @@ iframe {
   height: 88vh;
 }
 
-/****************/
 /***** Text *****/
 article > p {
   margin-top: 25px;
@@ -818,13 +802,11 @@ article > p {
   }
 }
 
-/*****************/
 /***** Forms *****/
 [type="radio"] {
   display: none;
 }
 
-/***************************/
 /***** Display Helpers *****/
 .block {
   display: block;
@@ -840,7 +822,6 @@ article > p {
   display: none;
 }
 
-/****************************/
 /***** Position Helpers *****/
 .absolute {
   position: absolute;
@@ -850,14 +831,12 @@ article > p {
   position: relative;
 }
 
-/****************************/
 /***** Container Helper *****/
 .container {
   margin: auto;
   max-width: 80%;
 }
 
-/**************************/
 /***** Cursor Helpers *****/
 .crosshair {
   cursor: crosshair;
@@ -925,7 +904,6 @@ article > p {
           animation: rotate 3s linear infinite;
 }
 
-/***********************/
 /***** Under-Title *****/
 .under-title {
   position: relative;
@@ -947,7 +925,6 @@ article > p {
           animation: translateX-large 4s ease-in-out;
 }
 
-/************************/
 /***** Font-Awesome *****/
 .fa-chart-line,
 .fa-cubes,
@@ -981,7 +958,6 @@ article > p {
   background-color: #2fa2be;
 }
 
-/******************/
 /***** Navbar *****/
 .navbar {
   display: -webkit-box;
@@ -1073,7 +1049,6 @@ article > p {
   margin-top: 100px;
 }
 
-/***************************/
 /***** Navbar Controls *****/
 #nav-close:checked ~ ul {
   display: -webkit-box;
@@ -1095,7 +1070,6 @@ article > p {
   }
 }
 
-/******************/
 /***** Button *****/
 .btn {
   display: inline-block;
@@ -1136,7 +1110,6 @@ article > p {
   }
 }
 
-/******************/
 /***** Slider *****/
 .slider {
   position: relative;
@@ -1247,7 +1220,6 @@ article > p {
   }
 }
 
-/********************/
 /***** Timeline *****/
 .timeline {
   height: 3px;
@@ -1274,7 +1246,6 @@ article > p {
   }
 }
 
-/**********************/
 /***** Slide Auto *****/
 [for="slide-auto"] {
   right: 50%;
@@ -1301,7 +1272,6 @@ article > p {
           animation: width 7s ease-out infinite alternate 1s;
 }
 
-/**********************/
 /***** Slide Left *****/
 [for="slide-left"] {
   left: -8px;
@@ -1338,7 +1308,6 @@ article > p {
   width: 0;
 }
 
-/***********************/
 /***** Slide Right *****/
 [for="slide-right"] {
   right: -8px;
@@ -1430,10 +1399,7 @@ article > p {
   }
 }
 
-/**************************/
 /********** MENU **********/
-/**************************/
-/****************/
 /***** Menu *****/
 .menu {
   display: -webkit-box;
@@ -1511,7 +1477,6 @@ article > p {
   display: none;
 }
 
-/*************************/
 /***** Menu Controls *****/
 #all:checked ~ .menu [for="all"],
 #creative:checked ~ .menu [for="creative"],
@@ -1523,7 +1488,6 @@ article > p {
   color: white;
 }
 
-/*******************/
 /***** Gallery *****/
 .gallery {
   display: -webkit-box;
@@ -1608,7 +1572,6 @@ article > p {
   padding: 0 10px 20px;
 }
 
-/****************************/
 /***** Gallery Controls *****/
 #all:checked ~ .gallery .all,
 #creative:checked ~ .gallery .creative,
@@ -1687,4 +1650,4 @@ article > p {
 }
 
 /* Author: Philippe Beck <philippe@philippebeck.net>
- Updated: 28th Jun 2019 @ 7:58:07 AM */
+ Updated: 28th Jun 2019 @ 8:34:03 AM */
