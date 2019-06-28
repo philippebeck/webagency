@@ -1,6 +1,4 @@
-//**************************
 //********** TAGS **********
-//**************************
 
 // 1. Global
 // 2. Structure
@@ -11,8 +9,6 @@
 // 7. Text
 // 8. Forms
 
-
-/******************/
 /***** Global *****/
 html {
   box-sizing: border-box;
@@ -28,16 +24,12 @@ body {
   scroll-behavior: smooth;
 }
 
-
-/*********************/
 /***** Structure *****/
 article,
 footer {
   padding-top: $navbar-height;
 }
 
-
-/******************/
 /***** Titles *****/
 h1 {
   line-height: 1;
@@ -90,16 +82,12 @@ h2 {
   }
 }
 
-
-/*****************/
 /***** Lists *****/
 ul {
   padding: 0;
   list-style: none;
 }
 
-
-/*****************/
 /***** Links *****/
 a {
   text-decoration: none;
@@ -110,8 +98,6 @@ a {
   }
 }
 
-
-/******************/
 /***** Medias *****/
 figure img {
   width: 100%;
@@ -122,8 +108,6 @@ iframe {
   height: 88vh;
 }
 
-
-/****************/
 /***** Text *****/
 article > p {
   margin-top: 25px;
@@ -151,8 +135,6 @@ article > p {
   }
 }
 
-
-/*****************/
 /***** Forms *****/
 [type="radio"] {
   display: none;
