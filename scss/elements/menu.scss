@@ -1,12 +1,8 @@
-/**************************/
 /********** MENU **********/
-/**************************/
 
 // 1. Menu class
 // 2. Menu Controls
 
-
-/****************/
 /***** Menu *****/
 .menu {
   display: flex;
@@ -69,8 +65,6 @@
   }
 }
 
-
-/*************************/
 /***** Menu Controls *****/
 #all:checked ~ .menu [for="all"],
 #creative:checked ~ .menu [for="creative"],
