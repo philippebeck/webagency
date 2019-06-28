@@ -58,6 +58,7 @@
   to {
     transform: translate(0, 0);
   }
+
   10%,
   30%,
   50%,
@@ -65,6 +66,7 @@
   90% {
     transform: translate(-5px, -5px);
   }
+
   20%,
   40%,
   60%,
@@ -78,12 +80,15 @@
   from {
     transform: translateX(0);
   }
+
   25% {
     transform: translateX(-250%);
   }
+
   75% {
     transform: translateX(250%);
   }
+
   to {
     transform: translateX(0);
   }
@@ -94,10 +99,12 @@
     transform: translateX(0);
     animation-play-state: paused;
   }
+
   10% {
     transform: translateX(0);
     animation-play-state: running;
   }
+
   to {
     transform: translateX(-50%);
   }
@@ -107,6 +114,7 @@
   from {
     transform: translateX(-500%);
   }
+
   to {
     transform: translateX(0);
   }
@@ -132,10 +140,12 @@
     width: 0;
     animation-play-state: paused;
   }
+
   10% {
     width: 0;
     animation-play-state: running;
   }
+  
   to {
     width: 100%;
   }
