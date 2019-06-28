@@ -17,21 +17,21 @@
   background-color: $light-grey;
   color: $grey;
 
-  @media  (min-width: 576px) {
+  @media (min-width: 576px) {
     flex-direction: row;
     align-items: flex-start;
     width: 100%;
   }
 
-  @media  (min-width: 768px) {
+  @media (min-width: 768px) {
     width: 80%;
   }
 
-  @media  (min-width: 992px) {
+  @media (min-width: 992px) {
     width: 60%;
   }
 
-  @media  (min-width: 1200px) {
+  @media (min-width: 1200px) {
     width: 40%;
   }
 
@@ -46,7 +46,7 @@
     border-radius: 5px;
     padding: 6px 12px;
 
-    @media  (min-width: 576px) {
+    @media (min-width: 576px) {
       width: 25%;
     }
 
