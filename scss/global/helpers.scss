@@ -1,14 +1,10 @@
-//*****************************
 //********** HELPERS **********
-//*****************************
 
 // 1. Display
 // 2. Position
 // 3. Container
 // 4. Cursor
 
-
-/***************************/
 /***** Display Helpers *****/
 .block {
   display: block;
@@ -22,8 +18,6 @@
   display: none;
 }
 
-
-/****************************/
 /***** Position Helpers *****/
 .absolute {
   position: absolute;
@@ -33,16 +27,12 @@
   position: relative;
 }
 
-
-/****************************/
 /***** Container Helper *****/
 .container {
   margin: auto;
   max-width: 80%;
 }
 
-
-/**************************/
 /***** Cursor Helpers *****/
 .crosshair {
   cursor: crosshair;
