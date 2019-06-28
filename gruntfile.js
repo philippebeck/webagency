@@ -41,6 +41,5 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks("grunt-postcss");
     grunt.loadNpmTasks("grunt-contrib-cssmin");
 
-
     grunt.registerTask("default", ["concat", "postcss", "cssmin"]);
 };
