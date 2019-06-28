@@ -589,8 +589,12 @@ article > p {
 }
 .slider figure {
   display: flex;
+  align-items: flex-start;
   width: 200%;
   margin: 0;
+}
+.slider img {
+  width: 50%;
 }
 .slider section {
   top: 0;

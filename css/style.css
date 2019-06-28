@@ -1146,8 +1146,14 @@ article > p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   width: 200%;
   margin: 0;
+}
+.slider img {
+  width: 50%;
 }
 .slider section {
   top: 0;
@@ -1681,4 +1687,4 @@ article > p {
 }
 
 /* Author: Philippe Beck <philippe@philippebeck.net>
- Updated: 28th Jun 2019 @ 6:50:50 AM */
+ Updated: 28th Jun 2019 @ 7:35:15 AM */
