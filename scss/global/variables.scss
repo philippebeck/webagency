@@ -1,27 +1,19 @@
-//*******************************
 //********** VARIABLES **********
-//*******************************
 
 // 1. Sizes
 // 2. Colors
 // 3. Animations
 
-
-//****************
 //***** Sizes *****
 $navbar-height: 100px;
 
-
-//******************
 //***** Colors *****
 $black:       #606060 !default;
 $blue:        #2fa2be !default;
 $grey:        #848484 !default;
-$light-grey : #E4E4E4 !default;
+$light-grey : #e4e4e4 !default;
 $navy:        #3292b9 !default;
 
-
-//**********************
 //***** Animations *****
 $slider-synchro : 7s ease-out infinite alternate 1s;
 $center:          translate(-50%, -50%);
