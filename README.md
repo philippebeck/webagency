@@ -67,7 +67,7 @@ The only JavaScript used is Grunt, the TaskRunner to :
  
  ## Open-Source
  
- [![GitHub Stars](https://img.shields.io/github/stars/philippebeck/webagency.svg?label=GitHub+:+Pam+|+Stars)](https://github.com/philippebeck/webagency)
+ [![GitHub Stars](https://img.shields.io/github/stars/philippebeck/webagency.svg?label=GitHub+:+Webagency+|+Stars)](https://github.com/philippebeck/webagency)
  
  ---
  
