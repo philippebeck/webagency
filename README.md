@@ -29,82 +29,82 @@ The only JavaScript used is Grunt, the TaskRunner to :
 -   make the CSS min file  
 
 ## Summary
- 
- -   [Download](#download)  
- -   [Content](#content)  
- -   [Support](#support)  
- -   [Open-Source](#open-source)  
- -   [Issues](#issues)  
- -   [Pull Requests](#pull-requests)  
- -   [Contributing](#contributing)  
- -   [Creator](#creator)  
- -   [Copyright](#copyright)  
- 
- ---
- 
- ## Download
- 
- `git clone https://github.com/philippebeck/webagency.git`  
-   
- [![Repo Size](https://img.shields.io/github/repo-size/philippebeck/webagency.svg?label=Repo+Size)](https://github.com/philippebeck/webagency/tree/master)
- 
- ---
- 
- ## Content
- 
- [![CSS Code Size](https://img.shields.io/github/languages/code-size/philippebeck/webagency.svg?label=Code+Size)](https://github.com/philippebeck/webagency/tree/master)
- 
- ---
- 
- ## Support
- 
- This project has continuous support !
- 
- [![Project Maintained](https://img.shields.io/maintenance/yes/2019.svg?label=Maintained)](https://github.com/philippebeck/webagency)
- [![GitHub Last Commit](https://img.shields.io/github/last-commit/philippebeck/webagency.svg?label=Last+Commit)](https://github.com/philippebeck/webagency/commits/master)
- 
- ---
- 
- ## Open-Source
- 
- [![GitHub Stars](https://img.shields.io/github/stars/philippebeck/webagency.svg?label=GitHub+:+Pam+|+Stars)](https://github.com/philippebeck/webagency)
- 
- ---
- 
- ## Issues
- 
- Issues can be created here
- 
- [![GitHub Open Issues](https://img.shields.io/github/issues/philippebeck/webagency.svg?label=Issues)](https://github.com/philippebeck/webagency/issues)
- 
- ---
- 
- ## Pull Requests
- 
- And Pull Requests can be created there
- 
- [![GitHub Open Pull Requests](https://img.shields.io/github/issues-pr/philippebeck/webagency.svg?label=Pull+Requests)](https://github.com/philippebeck/webagency/pulls)
- 
- ---
- 
- ## Contributing
- 
- [![GitHub Contributors](https://img.shields.io/github/contributors/philippebeck/webagency.svg?label=Contributors)](https://github.com/philippebeck/webagency/graphs/contributors)
- 
- ---
- 
- ## Creator
- 
- Philippe Beck
- 
- [![WebSite Status](https://img.shields.io/website-up-down-green-red/https/philippebeck.net.svg?label=https://philippebeck.net)](https://philippebeck.net)
- [![GitHub Followers](https://img.shields.io/github/followers/philippebeck.svg?label=GitHub+:+philippebeck+|+Followers)](https://github.com/philippebeck)
- [![Twitter Follow](https://badgen.net/twitter/follow/philippepjbeck)](https://twitter.com/philippepjbeck)
- 
- ---
- 
- ## Copyright
- 
- Code released under the MIT License
- 
- [![GitHub License](https://img.shields.io/github/license/philippebeck/webagency.svg?label=License)](https://github.com/philippebeck/webagency/blob/master/LICENSE)
+
+-   [Download](#download)  
+-   [Content](#content)  
+-   [Support](#support)  
+-   [Open-Source](#open-source)  
+-   [Issues](#issues)  
+-   [Pull Requests](#pull-requests)  
+-   [Contributing](#contributing)  
+-   [Creator](#creator)  
+-   [Copyright](#copyright)  
+
+---
+
+## Download
+
+`git clone https://github.com/philippebeck/webagency.git`  
+
+[![Repo Size](https://img.shields.io/github/repo-size/philippebeck/webagency.svg?label=Repo+Size)](https://github.com/philippebeck/webagency/tree/master)
+
+---
+
+## Content
+
+[![CSS Code Size](https://img.shields.io/github/languages/code-size/philippebeck/webagency.svg?label=Code+Size)](https://github.com/philippebeck/webagency/tree/master)
+
+---
+
+## Support
+
+This project has continuous support !
+
+[![Project Maintained](https://img.shields.io/maintenance/yes/2019.svg?label=Maintained)](https://github.com/philippebeck/webagency)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/philippebeck/webagency.svg?label=Last+Commit)](https://github.com/philippebeck/webagency/commits/master)
+
+---
+
+## Open-Source
+
+[![GitHub Stars](https://img.shields.io/github/stars/philippebeck/webagency.svg?label=GitHub+:+Pam+|+Stars)](https://github.com/philippebeck/webagency)
+
+---
+
+## Issues
+
+Issues can be created here
+
+[![GitHub Open Issues](https://img.shields.io/github/issues/philippebeck/webagency.svg?label=Issues)](https://github.com/philippebeck/webagency/issues)
+
+---
+
+## Pull Requests
+
+And Pull Requests can be created there
+
+[![GitHub Open Pull Requests](https://img.shields.io/github/issues-pr/philippebeck/webagency.svg?label=Pull+Requests)](https://github.com/philippebeck/webagency/pulls)
+
+---
+
+## Contributing
+
+[![GitHub Contributors](https://img.shields.io/github/contributors/philippebeck/webagency.svg?label=Contributors)](https://github.com/philippebeck/webagency/graphs/contributors)
+
+---
+
+## Creator
+
+Philippe Beck
+
+[![WebSite Status](https://img.shields.io/website-up-down-green-red/https/philippebeck.net.svg?label=https://philippebeck.net)](https://philippebeck.net)
+[![GitHub Followers](https://img.shields.io/github/followers/philippebeck.svg?label=GitHub+:+philippebeck+|+Followers)](https://github.com/philippebeck)
+[![Twitter Follow](https://badgen.net/twitter/follow/philippepjbeck)](https://twitter.com/philippepjbeck)
+
+---
+
+## Copyright
+
+Code released under the MIT License
+
+[![GitHub License](https://img.shields.io/github/license/philippebeck/webagency.svg?label=License)](https://github.com/philippebeck/webagency/blob/master/LICENSE)
