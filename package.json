@@ -1,6 +1,6 @@
 {
   "name": "webagency",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "L'agence de tous vos projets ! Vous avez un projet web ? La WebAgency vous aide à le réaliser !",
   "keywords": [
     "website",
@@ -19,12 +19,12 @@
     "homepage": "https://philippebeck.net"
   },
   "devDependencies": {
-    "autoprefixer": "^9.6.1",
-    "grunt": "^1.0.4",
-    "grunt-contrib-concat": "^1.0.1",
-    "grunt-contrib-cssmin": "^3.0.0",
-    "grunt-postcss": "^0.9.0",
-    "normalize.css": "~8.0.1"
+    "autoprefixer": "9.x",
+    "grunt": "1.x",
+    "grunt-contrib-concat": "1.x",
+    "grunt-contrib-cssmin": "3.x",
+    "grunt-postcss": "0.x",
+    "normalize.css": "8.x"
   },
   "bugs": "https://github.com/philippebeck/webagency-draft/issues",
   "homepage": "http://webagency.philippebeck.net"
