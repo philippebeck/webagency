@@ -60,7 +60,7 @@ The only JavaScript used is Grunt, the TaskRunner to :
 
 This project has continuous support !
 
-[![Project Maintained](https://img.shields.io/maintenance/yes/2019.svg?label=Maintained)](https://github.com/philippebeck/webagency)
+[![Project Maintained](https://img.shields.io/maintenance/yes/2020.svg?label=Maintained)](https://github.com/philippebeck/webagency)
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/philippebeck/webagency.svg?label=Last+Commit)](https://github.com/philippebeck/webagency/commits/master)
 
 ---
