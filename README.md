@@ -4,11 +4,6 @@
 
 ## [Junior Web Developer](https://openclassrooms.com/fr/paths/48-developpeur-web-junior) - Project 1
 
-[![GitHub Version](https://img.shields.io/github/package-json/v/philippebeck/webagency.svg?label=Version)](https://github.com/philippebeck/webagency/blob/master/package.json)
-[![David Dev Dependencies](https://img.shields.io/david/dev/philippebeck/webagency.svg?label=Dev+Dependencies)](https://david-dm.org/philippebeck/webagency?type=dev)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/532575a525734fbc86c89568292ea9ea)](https://www.codacy.com/app/philippebeck/webagency?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=philippebeck/webagency&amp;utm_campaign=Badge_Grade)
-[![Maintainability](https://api.codeclimate.com/v1/badges/0246bfb6a504f222bfe7/maintainability)](https://codeclimate.com/github/philippebeck/webagency/maintainability)
-
 ## Overview
 
 This is the first study project to get the Junior Web Developer degree [@OpenClassrooms](https://openclassrooms.com)
@@ -52,7 +47,7 @@ The only JavaScript used is Grunt, the TaskRunner to :
 
 ## Content
 
-[![CSS Code Size](https://img.shields.io/github/languages/code-size/philippebeck/webagency.svg?label=Code+Size)](https://github.com/philippebeck/webagency/tree/master)
+[![Code Size](https://img.shields.io/github/languages/code-size/philippebeck/webagency.svg?label=Code+Size)](https://github.com/philippebeck/webagency/tree/master)
 
 ---
 
